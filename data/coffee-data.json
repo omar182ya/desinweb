@@ -1,0 +1,4002 @@
+[
+ {
+   "id": 1,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 31492,
+   "Expense": 6575,
+   "Profit": 1260,
+   "OrderCount": 150
+ },
+ {
+   "id": 2,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 19555,
+   "Expense": 8392,
+   "Profit": 11803,
+   "OrderCount": 132
+ },
+ {
+   "id": 3,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 20462,
+   "Expense": 9283,
+   "Profit": 14019,
+   "OrderCount": 103
+ },
+ {
+   "id": 4,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 14568,
+   "Expense": 6831,
+   "Profit": 14746,
+   "OrderCount": 144
+ },
+ {
+   "id": 5,
+   "Market": "East",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 28575,
+   "Expense": 6381,
+   "Profit": 13130,
+   "OrderCount": 155
+ },
+ {
+   "id": 6,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 12740,
+   "Expense": 9544,
+   "Profit": 4554,
+   "OrderCount": 155
+ },
+ {
+   "id": 7,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 25032,
+   "Expense": 8085,
+   "Profit": 1580,
+   "OrderCount": 59
+ },
+ {
+   "id": 8,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 31768,
+   "Expense": 4173,
+   "Profit": 12529,
+   "OrderCount": 153
+ },
+ {
+   "id": 9,
+   "Market": "East",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 38173,
+   "Expense": 8992,
+   "Profit": 18423,
+   "OrderCount": 120
+ },
+ {
+   "id": 10,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 23952,
+   "Expense": 10540,
+   "Profit": 510,
+   "OrderCount": 78
+ },
+ {
+   "id": 11,
+   "Market": "East",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 21848,
+   "Expense": 6631,
+   "Profit": 17038,
+   "OrderCount": 92
+ },
+ {
+   "id": 12,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 14864,
+   "Expense": 11978,
+   "Profit": 883,
+   "OrderCount": 91
+ },
+ {
+   "id": 13,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 24740,
+   "Expense": 10444,
+   "Profit": 3734,
+   "OrderCount": 56
+ },
+ {
+   "id": 14,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 35314,
+   "Expense": 4119,
+   "Profit": 7182,
+   "OrderCount": 106
+ },
+ {
+   "id": 15,
+   "Market": "East",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 24743,
+   "Expense": 9478,
+   "Profit": 11679,
+   "OrderCount": 83
+ },
+ {
+   "id": 16,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 29130,
+   "Expense": 7854,
+   "Profit": 16035,
+   "OrderCount": 72
+ },
+ {
+   "id": 17,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 11800,
+   "Expense": 4173,
+   "Profit": 649,
+   "OrderCount": 98
+ },
+ {
+   "id": 18,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 24397,
+   "Expense": 8450,
+   "Profit": 8162,
+   "OrderCount": 139
+ },
+ {
+   "id": 19,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 31459,
+   "Expense": 3240,
+   "Profit": 3047,
+   "OrderCount": 62
+ },
+ {
+   "id": 20,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 26901,
+   "Expense": 9071,
+   "Profit": 2151,
+   "OrderCount": 139
+ },
+ {
+   "id": 21,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 29286,
+   "Expense": 11088,
+   "Profit": -928,
+   "OrderCount": 154
+ },
+ {
+   "id": 22,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 17834,
+   "Expense": 6140,
+   "Profit": 17429,
+   "OrderCount": 34
+ },
+ {
+   "id": 23,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 11732,
+   "Expense": 9485,
+   "Profit": 5356,
+   "OrderCount": 34
+ },
+ {
+   "id": 24,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 37677,
+   "Expense": 7260,
+   "Profit": 17594,
+   "OrderCount": 146
+ },
+ {
+   "id": 25,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 21011,
+   "Expense": 3996,
+   "Profit": 17425,
+   "OrderCount": 126
+ },
+ {
+   "id": 26,
+   "Market": "East",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 10780,
+   "Expense": 4867,
+   "Profit": 18998,
+   "OrderCount": 70
+ },
+ {
+   "id": 27,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 17597,
+   "Expense": 9860,
+   "Profit": 16140,
+   "OrderCount": 47
+ },
+ {
+   "id": 28,
+   "Market": "East",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 32709,
+   "Expense": 4687,
+   "Profit": 19050,
+   "OrderCount": 102
+ },
+ {
+   "id": 29,
+   "Market": "East",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 13876,
+   "Expense": 9104,
+   "Profit": 17453,
+   "OrderCount": 72
+ },
+ {
+   "id": 30,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 22572,
+   "Expense": 7034,
+   "Profit": 15003,
+   "OrderCount": 155
+ },
+ {
+   "id": 31,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 26432,
+   "Expense": 6278,
+   "Profit": 78,
+   "OrderCount": 53
+ },
+ {
+   "id": 32,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 39614,
+   "Expense": 5535,
+   "Profit": -898,
+   "OrderCount": 136
+ },
+ {
+   "id": 33,
+   "Market": "East",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 28999,
+   "Expense": 9307,
+   "Profit": 11011,
+   "OrderCount": 155
+ },
+ {
+   "id": 34,
+   "Market": "East",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 29545,
+   "Expense": 9882,
+   "Profit": 623,
+   "OrderCount": 97
+ },
+ {
+   "id": 35,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 33951,
+   "Expense": 10122,
+   "Profit": 11838,
+   "OrderCount": 65
+ },
+ {
+   "id": 36,
+   "Market": "East",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 33109,
+   "Expense": 10461,
+   "Profit": 6890,
+   "OrderCount": 33
+ },
+ {
+   "id": 37,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 14663,
+   "Expense": 5836,
+   "Profit": 4511,
+   "OrderCount": 48
+ },
+ {
+   "id": 38,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 23060,
+   "Expense": 4898,
+   "Profit": 11512,
+   "OrderCount": 121
+ },
+ {
+   "id": 39,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 21121,
+   "Expense": 4584,
+   "Profit": 6296,
+   "OrderCount": 100
+ },
+ {
+   "id": 40,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 29324,
+   "Expense": 5763,
+   "Profit": 14473,
+   "OrderCount": 37
+ },
+ {
+   "id": 41,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 35319,
+   "Expense": 4638,
+   "Profit": 16844,
+   "OrderCount": 107
+ },
+ {
+   "id": 42,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 16070,
+   "Expense": 5967,
+   "Profit": 12518,
+   "OrderCount": 79
+ },
+ {
+   "id": 43,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 21705,
+   "Expense": 6674,
+   "Profit": 3385,
+   "OrderCount": 64
+ },
+ {
+   "id": 44,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 30307,
+   "Expense": 5543,
+   "Profit": 6635,
+   "OrderCount": 86
+ },
+ {
+   "id": 45,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 38099,
+   "Expense": 7033,
+   "Profit": 8360,
+   "OrderCount": 126
+ },
+ {
+   "id": 46,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 38174,
+   "Expense": 7597,
+   "Profit": 19514,
+   "OrderCount": 99
+ },
+ {
+   "id": 47,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 32207,
+   "Expense": 5276,
+   "Profit": 16204,
+   "OrderCount": 57
+ },
+ {
+   "id": 48,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 17282,
+   "Expense": 7412,
+   "Profit": 4737,
+   "OrderCount": 78
+ },
+ {
+   "id": 49,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 36114,
+   "Expense": 11759,
+   "Profit": 18930,
+   "OrderCount": 67
+ },
+ {
+   "id": 50,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 27486,
+   "Expense": 6281,
+   "Profit": 19045,
+   "OrderCount": 92
+ },
+ {
+   "id": 51,
+   "Market": "East",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 35496,
+   "Expense": 5662,
+   "Profit": 11400,
+   "OrderCount": 131
+ },
+ {
+   "id": 52,
+   "Market": "East",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 25127,
+   "Expense": 4768,
+   "Profit": 9406,
+   "OrderCount": 96
+ },
+ {
+   "id": 53,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 38020,
+   "Expense": 3439,
+   "Profit": 18020,
+   "OrderCount": 111
+ },
+ {
+   "id": 54,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 17914,
+   "Expense": 4552,
+   "Profit": 1868,
+   "OrderCount": 141
+ },
+ {
+   "id": 55,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 11588,
+   "Expense": 4480,
+   "Profit": 11007,
+   "OrderCount": 138
+ },
+ {
+   "id": 56,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 27389,
+   "Expense": 9484,
+   "Profit": 10774,
+   "OrderCount": 90
+ },
+ {
+   "id": 57,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 17831,
+   "Expense": 5414,
+   "Profit": 16966,
+   "OrderCount": 77
+ },
+ {
+   "id": 58,
+   "Market": "East",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 10454,
+   "Expense": 10521,
+   "Profit": 2583,
+   "OrderCount": 51
+ },
+ {
+   "id": 59,
+   "Market": "East",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 14513,
+   "Expense": 3068,
+   "Profit": 7442,
+   "OrderCount": 39
+ },
+ {
+   "id": 60,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 19444,
+   "Expense": 8521,
+   "Profit": 11489,
+   "OrderCount": 79
+ },
+ {
+   "id": 61,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 14875,
+   "Expense": 8237,
+   "Profit": 16563,
+   "OrderCount": 43
+ },
+ {
+   "id": 62,
+   "Market": "East",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 33984,
+   "Expense": 3661,
+   "Profit": 16913,
+   "OrderCount": 151
+ },
+ {
+   "id": 63,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 37736,
+   "Expense": 6803,
+   "Profit": 3603,
+   "OrderCount": 117
+ },
+ {
+   "id": 64,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 34710,
+   "Expense": 7359,
+   "Profit": 6144,
+   "OrderCount": 116
+ },
+ {
+   "id": 65,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 12313,
+   "Expense": 8686,
+   "Profit": 12992,
+   "OrderCount": 62
+ },
+ {
+   "id": 66,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 12447,
+   "Expense": 3943,
+   "Profit": 15382,
+   "OrderCount": 155
+ },
+ {
+   "id": 67,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 14957,
+   "Expense": 10527,
+   "Profit": 738,
+   "OrderCount": 47
+ },
+ {
+   "id": 68,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 19359,
+   "Expense": 6641,
+   "Profit": 3409,
+   "OrderCount": 148
+ },
+ {
+   "id": 69,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 38582,
+   "Expense": 10231,
+   "Profit": 6998,
+   "OrderCount": 33
+ },
+ {
+   "id": 70,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 23607,
+   "Expense": 4407,
+   "Profit": 2711,
+   "OrderCount": 157
+ },
+ {
+   "id": 71,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 28166,
+   "Expense": 8389,
+   "Profit": 13209,
+   "OrderCount": 51
+ },
+ {
+   "id": 72,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 28526,
+   "Expense": 6550,
+   "Profit": 552,
+   "OrderCount": 65
+ },
+ {
+   "id": 73,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 17486,
+   "Expense": 11871,
+   "Profit": 167,
+   "OrderCount": 139
+ },
+ {
+   "id": 74,
+   "Market": "East",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 21880,
+   "Expense": 6706,
+   "Profit": -675,
+   "OrderCount": 151
+ },
+ {
+   "id": 75,
+   "Market": "East",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 19711,
+   "Expense": 11961,
+   "Profit": -968,
+   "OrderCount": 61
+ },
+ {
+   "id": 76,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 34480,
+   "Expense": 4738,
+   "Profit": 14050,
+   "OrderCount": 85
+ },
+ {
+   "id": 77,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 11562,
+   "Expense": 8552,
+   "Profit": 16242,
+   "OrderCount": 120
+ },
+ {
+   "id": 78,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 37709,
+   "Expense": 3040,
+   "Profit": 8370,
+   "OrderCount": 143
+ },
+ {
+   "id": 79,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 10044,
+   "Expense": 5491,
+   "Profit": 19366,
+   "OrderCount": 142
+ },
+ {
+   "id": 80,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 22654,
+   "Expense": 4754,
+   "Profit": 15553,
+   "OrderCount": 109
+ },
+ {
+   "id": 81,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 39229,
+   "Expense": 7612,
+   "Profit": 19416,
+   "OrderCount": 156
+ },
+ {
+   "id": 82,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 38449,
+   "Expense": 7314,
+   "Profit": 5385,
+   "OrderCount": 93
+ },
+ {
+   "id": 83,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 14414,
+   "Expense": 7508,
+   "Profit": 18435,
+   "OrderCount": 140
+ },
+ {
+   "id": 84,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 38540,
+   "Expense": 7323,
+   "Profit": 12390,
+   "OrderCount": 31
+ },
+ {
+   "id": 85,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 12965,
+   "Expense": 4409,
+   "Profit": 11583,
+   "OrderCount": 39
+ },
+ {
+   "id": 86,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 33230,
+   "Expense": 9643,
+   "Profit": 15391,
+   "OrderCount": 129
+ },
+ {
+   "id": 87,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 38155,
+   "Expense": 11629,
+   "Profit": 17140,
+   "OrderCount": 99
+ },
+ {
+   "id": 88,
+   "Market": "East",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 18243,
+   "Expense": 4970,
+   "Profit": 1886,
+   "OrderCount": 71
+ },
+ {
+   "id": 89,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 19117,
+   "Expense": 5167,
+   "Profit": 9996,
+   "OrderCount": 130
+ },
+ {
+   "id": 90,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 22427,
+   "Expense": 7517,
+   "Profit": 16187,
+   "OrderCount": 154
+ },
+ {
+   "id": 91,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 10324,
+   "Expense": 4075,
+   "Profit": 12700,
+   "OrderCount": 84
+ },
+ {
+   "id": 92,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 32731,
+   "Expense": 6444,
+   "Profit": 19797,
+   "OrderCount": 108
+ },
+ {
+   "id": 93,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Decaf Espresso",
+   "Revenue": 20056,
+   "Expense": 9467,
+   "Profit": 15353,
+   "OrderCount": 90
+ },
+ {
+   "id": 94,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 27458,
+   "Expense": 4891,
+   "Profit": 13662,
+   "OrderCount": 82
+ },
+ {
+   "id": 95,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 38654,
+   "Expense": 11579,
+   "Profit": 5001,
+   "OrderCount": 69
+ },
+ {
+   "id": 96,
+   "Market": "North",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 33537,
+   "Expense": 5537,
+   "Profit": 10906,
+   "OrderCount": 78
+ },
+ {
+   "id": 97,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 17188,
+   "Expense": 8099,
+   "Profit": 14865,
+   "OrderCount": 42
+ },
+ {
+   "id": 98,
+   "Market": "West",
+   "ProductType": "Espresso",
+   "Product": "Caffe Latte",
+   "Revenue": 34145,
+   "Expense": 11088,
+   "Profit": 9429,
+   "OrderCount": 103
+ },
+ {
+   "id": 99,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 24936,
+   "Expense": 3517,
+   "Profit": 14804,
+   "OrderCount": 136
+ },
+ {
+   "id": 100,
+   "Market": "South",
+   "ProductType": "Espresso",
+   "Product": "Caffe Mocha",
+   "Revenue": 31759,
+   "Expense": 5669,
+   "Profit": 4876,
+   "OrderCount": 127
+ },
+ {
+   "id": 1,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 37793,
+   "Expense": 8193,
+   "Profit": 15467,
+   "OrderCount": 141
+ },
+ {
+   "id": 2,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 19331,
+   "Expense": 6550,
+   "Profit": 3064,
+   "OrderCount": 140
+ },
+ {
+   "id": 3,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 26302,
+   "Expense": 11114,
+   "Profit": 2730,
+   "OrderCount": 45
+ },
+ {
+   "id": 4,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 17474,
+   "Expense": 9500,
+   "Profit": 18481,
+   "OrderCount": 57
+ },
+ {
+   "id": 5,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 10411,
+   "Expense": 8110,
+   "Profit": 6588,
+   "OrderCount": 132
+ },
+ {
+   "id": 6,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 10364,
+   "Expense": 11318,
+   "Profit": 6364,
+   "OrderCount": 75
+ },
+ {
+   "id": 7,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 26377,
+   "Expense": 8874,
+   "Profit": 8251,
+   "OrderCount": 46
+ },
+ {
+   "id": 8,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 13359,
+   "Expense": 3674,
+   "Profit": 7468,
+   "OrderCount": 80
+ },
+ {
+   "id": 9,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 10441,
+   "Expense": 10524,
+   "Profit": 1858,
+   "OrderCount": 37
+ },
+ {
+   "id": 10,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 19003,
+   "Expense": 9353,
+   "Profit": 5716,
+   "OrderCount": 143
+ },
+ {
+   "id": 11,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 37449,
+   "Expense": 10982,
+   "Profit": 17683,
+   "OrderCount": 143
+ },
+ {
+   "id": 12,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 22104,
+   "Expense": 5491,
+   "Profit": 10735,
+   "OrderCount": 93
+ },
+ {
+   "id": 13,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 20737,
+   "Expense": 11807,
+   "Profit": 16840,
+   "OrderCount": 74
+ },
+ {
+   "id": 14,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 38765,
+   "Expense": 9361,
+   "Profit": 13794,
+   "OrderCount": 140
+ },
+ {
+   "id": 15,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 20588,
+   "Expense": 8372,
+   "Profit": -422,
+   "OrderCount": 122
+ },
+ {
+   "id": 16,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 37021,
+   "Expense": 9459,
+   "Profit": 14651,
+   "OrderCount": 147
+ },
+ {
+   "id": 17,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 16856,
+   "Expense": 4296,
+   "Profit": 12671,
+   "OrderCount": 117
+ },
+ {
+   "id": 18,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 30053,
+   "Expense": 5480,
+   "Profit": 10623,
+   "OrderCount": 70
+ },
+ {
+   "id": 19,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 34504,
+   "Expense": 10631,
+   "Profit": 5357,
+   "OrderCount": 147
+ },
+ {
+   "id": 20,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 14745,
+   "Expense": 11673,
+   "Profit": 19804,
+   "OrderCount": 116
+ },
+ {
+   "id": 21,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 32978,
+   "Expense": 7556,
+   "Profit": 2770,
+   "OrderCount": 90
+ },
+ {
+   "id": 22,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 10152,
+   "Expense": 5588,
+   "Profit": 8905,
+   "OrderCount": 64
+ },
+ {
+   "id": 23,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 11215,
+   "Expense": 8664,
+   "Profit": 9035,
+   "OrderCount": 43
+ },
+ {
+   "id": 24,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 19242,
+   "Expense": 8208,
+   "Profit": 1320,
+   "OrderCount": 97
+ },
+ {
+   "id": 25,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 13833,
+   "Expense": 9027,
+   "Profit": 10451,
+   "OrderCount": 108
+ },
+ {
+   "id": 26,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 16661,
+   "Expense": 8053,
+   "Profit": 8728,
+   "OrderCount": 152
+ },
+ {
+   "id": 27,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 23491,
+   "Expense": 9274,
+   "Profit": 328,
+   "OrderCount": 60
+ },
+ {
+   "id": 28,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 34897,
+   "Expense": 5292,
+   "Profit": 1737,
+   "OrderCount": 67
+ },
+ {
+   "id": 29,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 32627,
+   "Expense": 4197,
+   "Profit": 12070,
+   "OrderCount": 112
+ },
+ {
+   "id": 30,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 17135,
+   "Expense": 11024,
+   "Profit": 18474,
+   "OrderCount": 154
+ },
+ {
+   "id": 31,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 23607,
+   "Expense": 8524,
+   "Profit": 167,
+   "OrderCount": 83
+ },
+ {
+   "id": 32,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 33740,
+   "Expense": 10119,
+   "Profit": 11126,
+   "OrderCount": 56
+ },
+ {
+   "id": 33,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 25121,
+   "Expense": 7037,
+   "Profit": 18113,
+   "OrderCount": 139
+ },
+ {
+   "id": 34,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 33446,
+   "Expense": 11532,
+   "Profit": 8901,
+   "OrderCount": 67
+ },
+ {
+   "id": 35,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 37898,
+   "Expense": 6267,
+   "Profit": 13029,
+   "OrderCount": 36
+ },
+ {
+   "id": 36,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 32464,
+   "Expense": 11338,
+   "Profit": 1199,
+   "OrderCount": 152
+ },
+ {
+   "id": 37,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 18548,
+   "Expense": 4458,
+   "Profit": 939,
+   "OrderCount": 86
+ },
+ {
+   "id": 38,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 27527,
+   "Expense": 11015,
+   "Profit": 4564,
+   "OrderCount": 80
+ },
+ {
+   "id": 39,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 38671,
+   "Expense": 6871,
+   "Profit": 11593,
+   "OrderCount": 138
+ },
+ {
+   "id": 40,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 22780,
+   "Expense": 5848,
+   "Profit": 2350,
+   "OrderCount": 64
+ },
+ {
+   "id": 41,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 29670,
+   "Expense": 11858,
+   "Profit": 13035,
+   "OrderCount": 101
+ },
+ {
+   "id": 42,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 28621,
+   "Expense": 4933,
+   "Profit": -836,
+   "OrderCount": 123
+ },
+ {
+   "id": 43,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 18631,
+   "Expense": 7370,
+   "Profit": 8801,
+   "OrderCount": 79
+ },
+ {
+   "id": 44,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 15484,
+   "Expense": 6941,
+   "Profit": 16005,
+   "OrderCount": 62
+ },
+ {
+   "id": 45,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 11164,
+   "Expense": 10974,
+   "Profit": 667,
+   "OrderCount": 98
+ },
+ {
+   "id": 46,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 11696,
+   "Expense": 9094,
+   "Profit": 4657,
+   "OrderCount": 105
+ },
+ {
+   "id": 47,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 19685,
+   "Expense": 10586,
+   "Profit": 18569,
+   "OrderCount": 152
+ },
+ {
+   "id": 48,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 35543,
+   "Expense": 9473,
+   "Profit": -897,
+   "OrderCount": 93
+ },
+ {
+   "id": 49,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 29547,
+   "Expense": 5377,
+   "Profit": 16588,
+   "OrderCount": 127
+ },
+ {
+   "id": 50,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 26660,
+   "Expense": 11715,
+   "Profit": 5590,
+   "OrderCount": 143
+ },
+ {
+   "id": 51,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 22161,
+   "Expense": 11043,
+   "Profit": 13341,
+   "OrderCount": 96
+ },
+ {
+   "id": 52,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 38212,
+   "Expense": 7478,
+   "Profit": 18939,
+   "OrderCount": 133
+ },
+ {
+   "id": 53,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 20435,
+   "Expense": 7076,
+   "Profit": 18604,
+   "OrderCount": 121
+ },
+ {
+   "id": 54,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 28538,
+   "Expense": 10468,
+   "Profit": 11739,
+   "OrderCount": 61
+ },
+ {
+   "id": 55,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 13074,
+   "Expense": 11269,
+   "Profit": 2436,
+   "OrderCount": 143
+ },
+ {
+   "id": 56,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 23412,
+   "Expense": 3785,
+   "Profit": 4764,
+   "OrderCount": 127
+ },
+ {
+   "id": 57,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 24921,
+   "Expense": 6120,
+   "Profit": 5507,
+   "OrderCount": 116
+ },
+ {
+   "id": 58,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 37912,
+   "Expense": 11581,
+   "Profit": 145,
+   "OrderCount": 109
+ },
+ {
+   "id": 59,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 36694,
+   "Expense": 5222,
+   "Profit": 5042,
+   "OrderCount": 110
+ },
+ {
+   "id": 60,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 22825,
+   "Expense": 8400,
+   "Profit": 11054,
+   "OrderCount": 94
+ },
+ {
+   "id": 61,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 28334,
+   "Expense": 4592,
+   "Profit": 17000,
+   "OrderCount": 97
+ },
+ {
+   "id": 62,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 35481,
+   "Expense": 11967,
+   "Profit": 3488,
+   "OrderCount": 111
+ },
+ {
+   "id": 63,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 32360,
+   "Expense": 5755,
+   "Profit": 16989,
+   "OrderCount": 92
+ },
+ {
+   "id": 64,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 38853,
+   "Expense": 9939,
+   "Profit": 279,
+   "OrderCount": 103
+ },
+ {
+   "id": 65,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 31264,
+   "Expense": 4229,
+   "Profit": 6257,
+   "OrderCount": 89
+ },
+ {
+   "id": 66,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 11093,
+   "Expense": 8976,
+   "Profit": 8580,
+   "OrderCount": 130
+ },
+ {
+   "id": 67,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 12910,
+   "Expense": 9123,
+   "Profit": 1217,
+   "OrderCount": 56
+ },
+ {
+   "id": 68,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 13293,
+   "Expense": 10591,
+   "Profit": 4917,
+   "OrderCount": 82
+ },
+ {
+   "id": 69,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 21241,
+   "Expense": 6601,
+   "Profit": 2910,
+   "OrderCount": 138
+ },
+ {
+   "id": 70,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 19047,
+   "Expense": 9300,
+   "Profit": 4537,
+   "OrderCount": 146
+ },
+ {
+   "id": 71,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 18324,
+   "Expense": 7168,
+   "Profit": 16276,
+   "OrderCount": 141
+ },
+ {
+   "id": 72,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 33940,
+   "Expense": 6817,
+   "Profit": 4796,
+   "OrderCount": 109
+ },
+ {
+   "id": 73,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 38333,
+   "Expense": 5398,
+   "Profit": 17904,
+   "OrderCount": 90
+ },
+ {
+   "id": 74,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 10669,
+   "Expense": 6894,
+   "Profit": 2783,
+   "OrderCount": 54
+ },
+ {
+   "id": 75,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 12580,
+   "Expense": 11932,
+   "Profit": -246,
+   "OrderCount": 114
+ },
+ {
+   "id": 76,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 24548,
+   "Expense": 10416,
+   "Profit": 5542,
+   "OrderCount": 135
+ },
+ {
+   "id": 77,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 18304,
+   "Expense": 4511,
+   "Profit": 9603,
+   "OrderCount": 56
+ },
+ {
+   "id": 78,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 21443,
+   "Expense": 7895,
+   "Profit": 4696,
+   "OrderCount": 93
+ },
+ {
+   "id": 79,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 15364,
+   "Expense": 10155,
+   "Profit": 17982,
+   "OrderCount": 151
+ },
+ {
+   "id": 80,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 19831,
+   "Expense": 11455,
+   "Profit": 569,
+   "OrderCount": 123
+ },
+ {
+   "id": 81,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 32757,
+   "Expense": 8586,
+   "Profit": 12671,
+   "OrderCount": 38
+ },
+ {
+   "id": 82,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 36853,
+   "Expense": 8343,
+   "Profit": 13349,
+   "OrderCount": 31
+ },
+ {
+   "id": 83,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 21481,
+   "Expense": 4030,
+   "Profit": 14149,
+   "OrderCount": 87
+ },
+ {
+   "id": 84,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 21615,
+   "Expense": 5114,
+   "Profit": 1165,
+   "OrderCount": 122
+ },
+ {
+   "id": 85,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 10980,
+   "Expense": 11509,
+   "Profit": 2552,
+   "OrderCount": 110
+ },
+ {
+   "id": 86,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 27263,
+   "Expense": 11353,
+   "Profit": 19130,
+   "OrderCount": 142
+ },
+ {
+   "id": 87,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 20625,
+   "Expense": 3158,
+   "Profit": 10942,
+   "OrderCount": 110
+ },
+ {
+   "id": 88,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 19422,
+   "Expense": 8194,
+   "Profit": 789,
+   "OrderCount": 35
+ },
+ {
+   "id": 89,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 38820,
+   "Expense": 9124,
+   "Profit": 5612,
+   "OrderCount": 41
+ },
+ {
+   "id": 90,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 35722,
+   "Expense": 3135,
+   "Profit": 10685,
+   "OrderCount": 75
+ },
+ {
+   "id": 91,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 12486,
+   "Expense": 8220,
+   "Profit": 3649,
+   "OrderCount": 67
+ },
+ {
+   "id": 92,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 28650,
+   "Expense": 7906,
+   "Profit": 13059,
+   "OrderCount": 106
+ },
+ {
+   "id": 93,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 34053,
+   "Expense": 11353,
+   "Profit": 1056,
+   "OrderCount": 101
+ },
+ {
+   "id": 94,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Mint",
+   "Revenue": 27281,
+   "Expense": 11478,
+   "Profit": 17639,
+   "OrderCount": 139
+ },
+ {
+   "id": 95,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 34237,
+   "Expense": 11880,
+   "Profit": 1345,
+   "OrderCount": 130
+ },
+ {
+   "id": 96,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 25305,
+   "Expense": 9477,
+   "Profit": 3091,
+   "OrderCount": 147
+ },
+ {
+   "id": 97,
+   "Market": "South",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 22967,
+   "Expense": 11443,
+   "Profit": 7693,
+   "OrderCount": 156
+ },
+ {
+   "id": 98,
+   "Market": "West",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 18046,
+   "Expense": 11942,
+   "Profit": 14432,
+   "OrderCount": 88
+ },
+ {
+   "id": 99,
+   "Market": "North",
+   "ProductType": "Herbal Tea",
+   "Product": "Lemon",
+   "Revenue": 38854,
+   "Expense": 5424,
+   "Profit": 17079,
+   "OrderCount": 79
+ },
+ {
+   "id": 100,
+   "Market": "East",
+   "ProductType": "Herbal Tea",
+   "Product": "Chamomile",
+   "Revenue": 18677,
+   "Expense": 10739,
+   "Profit": 5958,
+   "OrderCount": 158
+ },
+ {
+   "id": 1,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 12109,
+   "Expense": 3696,
+   "Profit": 16863,
+   "OrderCount": 97
+ },
+ {
+   "id": 2,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 33726,
+   "Expense": 8385,
+   "Profit": 2972,
+   "OrderCount": 81
+ },
+ {
+   "id": 3,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 33032,
+   "Expense": 11519,
+   "Profit": 3697,
+   "OrderCount": 114
+ },
+ {
+   "id": 4,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 24445,
+   "Expense": 8072,
+   "Profit": 1096,
+   "OrderCount": 111
+ },
+ {
+   "id": 5,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 39019,
+   "Expense": 10540,
+   "Profit": 9777,
+   "OrderCount": 36
+ },
+ {
+   "id": 6,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 19645,
+   "Expense": 11337,
+   "Profit": 18691,
+   "OrderCount": 108
+ },
+ {
+   "id": 7,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 17937,
+   "Expense": 3793,
+   "Profit": 10029,
+   "OrderCount": 39
+ },
+ {
+   "id": 8,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 24786,
+   "Expense": 5796,
+   "Profit": 12546,
+   "OrderCount": 75
+ },
+ {
+   "id": 9,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 24448,
+   "Expense": 6338,
+   "Profit": 17650,
+   "OrderCount": 99
+ },
+ {
+   "id": 10,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 21873,
+   "Expense": 5950,
+   "Profit": 40,
+   "OrderCount": 57
+ },
+ {
+   "id": 11,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 34940,
+   "Expense": 7586,
+   "Profit": 12454,
+   "OrderCount": 90
+ },
+ {
+   "id": 12,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 28414,
+   "Expense": 4480,
+   "Profit": 6440,
+   "OrderCount": 109
+ },
+ {
+   "id": 13,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 37790,
+   "Expense": 4184,
+   "Profit": 13227,
+   "OrderCount": 49
+ },
+ {
+   "id": 14,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 28755,
+   "Expense": 8592,
+   "Profit": 7780,
+   "OrderCount": 88
+ },
+ {
+   "id": 15,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 33002,
+   "Expense": 9703,
+   "Profit": 5398,
+   "OrderCount": 86
+ },
+ {
+   "id": 16,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 10814,
+   "Expense": 3910,
+   "Profit": 7521,
+   "OrderCount": 131
+ },
+ {
+   "id": 17,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 23195,
+   "Expense": 10152,
+   "Profit": 12017,
+   "OrderCount": 86
+ },
+ {
+   "id": 18,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 24346,
+   "Expense": 11288,
+   "Profit": 17957,
+   "OrderCount": 50
+ },
+ {
+   "id": 19,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 10287,
+   "Expense": 4127,
+   "Profit": 19530,
+   "OrderCount": 51
+ },
+ {
+   "id": 20,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 33310,
+   "Expense": 6513,
+   "Profit": 3566,
+   "OrderCount": 152
+ },
+ {
+   "id": 21,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 29396,
+   "Expense": 6131,
+   "Profit": 18211,
+   "OrderCount": 145
+ },
+ {
+   "id": 22,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 39739,
+   "Expense": 8469,
+   "Profit": 2490,
+   "OrderCount": 71
+ },
+ {
+   "id": 23,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 15326,
+   "Expense": 9812,
+   "Profit": 15783,
+   "OrderCount": 89
+ },
+ {
+   "id": 24,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 29984,
+   "Expense": 10676,
+   "Profit": 15991,
+   "OrderCount": 74
+ },
+ {
+   "id": 25,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 30633,
+   "Expense": 7746,
+   "Profit": 18899,
+   "OrderCount": 157
+ },
+ {
+   "id": 26,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 39868,
+   "Expense": 3177,
+   "Profit": 16964,
+   "OrderCount": 46
+ },
+ {
+   "id": 27,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 14669,
+   "Expense": 8533,
+   "Profit": 12225,
+   "OrderCount": 142
+ },
+ {
+   "id": 28,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 39328,
+   "Expense": 3063,
+   "Profit": 1111,
+   "OrderCount": 104
+ },
+ {
+   "id": 29,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 39264,
+   "Expense": 6300,
+   "Profit": 2025,
+   "OrderCount": 116
+ },
+ {
+   "id": 30,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 37325,
+   "Expense": 8658,
+   "Profit": 2904,
+   "OrderCount": 44
+ },
+ {
+   "id": 31,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 33226,
+   "Expense": 7885,
+   "Profit": 12736,
+   "OrderCount": 95
+ },
+ {
+   "id": 32,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 31151,
+   "Expense": 5240,
+   "Profit": 19363,
+   "OrderCount": 115
+ },
+ {
+   "id": 33,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 33567,
+   "Expense": 6773,
+   "Profit": 6993,
+   "OrderCount": 88
+ },
+ {
+   "id": 34,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 39089,
+   "Expense": 11839,
+   "Profit": 2671,
+   "OrderCount": 50
+ },
+ {
+   "id": 35,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 30391,
+   "Expense": 3227,
+   "Profit": 15227,
+   "OrderCount": 117
+ },
+ {
+   "id": 36,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 18781,
+   "Expense": 5858,
+   "Profit": 4399,
+   "OrderCount": 93
+ },
+ {
+   "id": 37,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 25168,
+   "Expense": 10951,
+   "Profit": 6636,
+   "OrderCount": 100
+ },
+ {
+   "id": 38,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 28333,
+   "Expense": 6556,
+   "Profit": 4395,
+   "OrderCount": 73
+ },
+ {
+   "id": 39,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 39503,
+   "Expense": 8837,
+   "Profit": 17107,
+   "OrderCount": 63
+ },
+ {
+   "id": 40,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 32383,
+   "Expense": 7572,
+   "Profit": 11830,
+   "OrderCount": 63
+ },
+ {
+   "id": 41,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 30497,
+   "Expense": 6694,
+   "Profit": 12083,
+   "OrderCount": 157
+ },
+ {
+   "id": 42,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 28866,
+   "Expense": 6478,
+   "Profit": 1275,
+   "OrderCount": 153
+ },
+ {
+   "id": 43,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 39479,
+   "Expense": 8685,
+   "Profit": 4181,
+   "OrderCount": 117
+ },
+ {
+   "id": 44,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 21338,
+   "Expense": 7504,
+   "Profit": 10399,
+   "OrderCount": 117
+ },
+ {
+   "id": 45,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 22261,
+   "Expense": 9159,
+   "Profit": -255,
+   "OrderCount": 62
+ },
+ {
+   "id": 46,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 22306,
+   "Expense": 11671,
+   "Profit": 6250,
+   "OrderCount": 136
+ },
+ {
+   "id": 47,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 17940,
+   "Expense": 5646,
+   "Profit": 3640,
+   "OrderCount": 93
+ },
+ {
+   "id": 48,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 30800,
+   "Expense": 10778,
+   "Profit": 6273,
+   "OrderCount": 80
+ },
+ {
+   "id": 49,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 37902,
+   "Expense": 8697,
+   "Profit": 10089,
+   "OrderCount": 42
+ },
+ {
+   "id": 50,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 39150,
+   "Expense": 4459,
+   "Profit": 2788,
+   "OrderCount": 52
+ },
+ {
+   "id": 51,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 29370,
+   "Expense": 8913,
+   "Profit": 3863,
+   "OrderCount": 72
+ },
+ {
+   "id": 52,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 38568,
+   "Expense": 10686,
+   "Profit": 5903,
+   "OrderCount": 72
+ },
+ {
+   "id": 53,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 22304,
+   "Expense": 11858,
+   "Profit": 19911,
+   "OrderCount": 58
+ },
+ {
+   "id": 54,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 21203,
+   "Expense": 5311,
+   "Profit": 10759,
+   "OrderCount": 31
+ },
+ {
+   "id": 55,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 29218,
+   "Expense": 11523,
+   "Profit": 10467,
+   "OrderCount": 30
+ },
+ {
+   "id": 56,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 16432,
+   "Expense": 9175,
+   "Profit": 229,
+   "OrderCount": 58
+ },
+ {
+   "id": 57,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 15000,
+   "Expense": 3553,
+   "Profit": 6488,
+   "OrderCount": 49
+ },
+ {
+   "id": 58,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 34804,
+   "Expense": 5012,
+   "Profit": 17372,
+   "OrderCount": 142
+ },
+ {
+   "id": 59,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 28909,
+   "Expense": 8813,
+   "Profit": 7348,
+   "OrderCount": 124
+ },
+ {
+   "id": 60,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 26957,
+   "Expense": 11527,
+   "Profit": 14771,
+   "OrderCount": 119
+ },
+ {
+   "id": 61,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 25311,
+   "Expense": 4899,
+   "Profit": 346,
+   "OrderCount": 131
+ },
+ {
+   "id": 62,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 10395,
+   "Expense": 10834,
+   "Profit": 3020,
+   "OrderCount": 42
+ },
+ {
+   "id": 63,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 17362,
+   "Expense": 5529,
+   "Profit": 14969,
+   "OrderCount": 86
+ },
+ {
+   "id": 64,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 13166,
+   "Expense": 11056,
+   "Profit": 13404,
+   "OrderCount": 107
+ },
+ {
+   "id": 65,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 39097,
+   "Expense": 10320,
+   "Profit": 6140,
+   "OrderCount": 100
+ },
+ {
+   "id": 66,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 35749,
+   "Expense": 5679,
+   "Profit": 5151,
+   "OrderCount": 117
+ },
+ {
+   "id": 67,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 23551,
+   "Expense": 6565,
+   "Profit": 14720,
+   "OrderCount": 142
+ },
+ {
+   "id": 68,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 28101,
+   "Expense": 10090,
+   "Profit": 10043,
+   "OrderCount": 57
+ },
+ {
+   "id": 69,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 11180,
+   "Expense": 6530,
+   "Profit": 1344,
+   "OrderCount": 34
+ },
+ {
+   "id": 70,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 18332,
+   "Expense": 6698,
+   "Profit": 4638,
+   "OrderCount": 92
+ },
+ {
+   "id": 71,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 10826,
+   "Expense": 3623,
+   "Profit": 3156,
+   "OrderCount": 38
+ },
+ {
+   "id": 72,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 18717,
+   "Expense": 8932,
+   "Profit": 13472,
+   "OrderCount": 139
+ },
+ {
+   "id": 73,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 37405,
+   "Expense": 9906,
+   "Profit": 16444,
+   "OrderCount": 31
+ },
+ {
+   "id": 74,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 13458,
+   "Expense": 3951,
+   "Profit": 6981,
+   "OrderCount": 81
+ },
+ {
+   "id": 75,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 17748,
+   "Expense": 7968,
+   "Profit": 1436,
+   "OrderCount": 84
+ },
+ {
+   "id": 76,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 19386,
+   "Expense": 5253,
+   "Profit": 19037,
+   "OrderCount": 37
+ },
+ {
+   "id": 77,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 16413,
+   "Expense": 8465,
+   "Profit": 7813,
+   "OrderCount": 145
+ },
+ {
+   "id": 78,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 29520,
+   "Expense": 11246,
+   "Profit": 3233,
+   "OrderCount": 77
+ },
+ {
+   "id": 79,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 20949,
+   "Expense": 3398,
+   "Profit": 850,
+   "OrderCount": 126
+ },
+ {
+   "id": 80,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 17105,
+   "Expense": 7626,
+   "Profit": 8045,
+   "OrderCount": 150
+ },
+ {
+   "id": 81,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 10358,
+   "Expense": 3926,
+   "Profit": 546,
+   "OrderCount": 34
+ },
+ {
+   "id": 82,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 32572,
+   "Expense": 9135,
+   "Profit": 5319,
+   "OrderCount": 66
+ },
+ {
+   "id": 83,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 31722,
+   "Expense": 7540,
+   "Profit": 16180,
+   "OrderCount": 118
+ },
+ {
+   "id": 84,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 24146,
+   "Expense": 10765,
+   "Profit": 11318,
+   "OrderCount": 102
+ },
+ {
+   "id": 85,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 33540,
+   "Expense": 9412,
+   "Profit": 15366,
+   "OrderCount": 115
+ },
+ {
+   "id": 86,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 15024,
+   "Expense": 5063,
+   "Profit": 14416,
+   "OrderCount": 95
+ },
+ {
+   "id": 87,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 27501,
+   "Expense": 4124,
+   "Profit": 9327,
+   "OrderCount": 35
+ },
+ {
+   "id": 88,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 27396,
+   "Expense": 9116,
+   "Profit": 8406,
+   "OrderCount": 143
+ },
+ {
+   "id": 89,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 20826,
+   "Expense": 6489,
+   "Profit": 16564,
+   "OrderCount": 88
+ },
+ {
+   "id": 90,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 24366,
+   "Expense": 10316,
+   "Profit": 12938,
+   "OrderCount": 62
+ },
+ {
+   "id": 91,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 30060,
+   "Expense": 11760,
+   "Profit": 11750,
+   "OrderCount": 129
+ },
+ {
+   "id": 92,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 11168,
+   "Expense": 3419,
+   "Profit": 5719,
+   "OrderCount": 150
+ },
+ {
+   "id": 93,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 20618,
+   "Expense": 7058,
+   "Profit": 14324,
+   "OrderCount": 75
+ },
+ {
+   "id": 94,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 25546,
+   "Expense": 5240,
+   "Profit": 1734,
+   "OrderCount": 138
+ },
+ {
+   "id": 95,
+   "Market": "West",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 39639,
+   "Expense": 10911,
+   "Profit": 17284,
+   "OrderCount": 50
+ },
+ {
+   "id": 96,
+   "Market": "East",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 36118,
+   "Expense": 8385,
+   "Profit": 11738,
+   "OrderCount": 63
+ },
+ {
+   "id": 97,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Colombian",
+   "Revenue": 18629,
+   "Expense": 7163,
+   "Profit": 13308,
+   "OrderCount": 130
+ },
+ {
+   "id": 98,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 22886,
+   "Expense": 11326,
+   "Profit": 1075,
+   "OrderCount": 127
+ },
+ {
+   "id": 99,
+   "Market": "South",
+   "ProductType": "Coffee",
+   "Product": "Amaretto",
+   "Revenue": 12389,
+   "Expense": 10309,
+   "Profit": 15327,
+   "OrderCount": 32
+ },
+ {
+   "id": 100,
+   "Market": "North",
+   "ProductType": "Coffee",
+   "Product": "Decaf Irish Cream",
+   "Revenue": 17614,
+   "Expense": 10656,
+   "Profit": 14288,
+   "OrderCount": 139
+ },
+ {
+   "id": 1,
+   "Market": "South",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 24293,
+   "Expense": 7013,
+   "Profit": 6407,
+   "OrderCount": 134
+ },
+ {
+   "id": 2,
+   "Market": "South",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 14711,
+   "Expense": 8018,
+   "Profit": 2769,
+   "OrderCount": 110
+ },
+ {
+   "id": 3,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 21451,
+   "Expense": 9154,
+   "Profit": -56,
+   "OrderCount": 136
+ },
+ {
+   "id": 4,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 16007,
+   "Expense": 5337,
+   "Profit": -605,
+   "OrderCount": 57
+ },
+ {
+   "id": 5,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 31433,
+   "Expense": 3657,
+   "Profit": 9035,
+   "OrderCount": 142
+ },
+ {
+   "id": 6,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 22495,
+   "Expense": 9009,
+   "Profit": 2279,
+   "OrderCount": 122
+ },
+ {
+   "id": 7,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 10889,
+   "Expense": 5810,
+   "Profit": 9843,
+   "OrderCount": 146
+ },
+ {
+   "id": 8,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 21092,
+   "Expense": 9112,
+   "Profit": 10867,
+   "OrderCount": 114
+ },
+ {
+   "id": 9,
+   "Market": "South",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 15000,
+   "Expense": 8244,
+   "Profit": 10397,
+   "OrderCount": 41
+ },
+ {
+   "id": 10,
+   "Market": "South",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 25677,
+   "Expense": 3391,
+   "Profit": 6214,
+   "OrderCount": 55
+ },
+ {
+   "id": 11,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 22630,
+   "Expense": 10208,
+   "Profit": 17861,
+   "OrderCount": 63
+ },
+ {
+   "id": 12,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 18776,
+   "Expense": 3459,
+   "Profit": 7652,
+   "OrderCount": 117
+ },
+ {
+   "id": 13,
+   "Market": "South",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 29282,
+   "Expense": 8009,
+   "Profit": 11047,
+   "OrderCount": 61
+ },
+ {
+   "id": 14,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 32971,
+   "Expense": 9848,
+   "Profit": 9157,
+   "OrderCount": 76
+ },
+ {
+   "id": 15,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 15859,
+   "Expense": 4777,
+   "Profit": 9055,
+   "OrderCount": 40
+ },
+ {
+   "id": 16,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 26389,
+   "Expense": 11543,
+   "Profit": 2396,
+   "OrderCount": 139
+ },
+ {
+   "id": 17,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 20098,
+   "Expense": 11480,
+   "Profit": 11763,
+   "OrderCount": 127
+ },
+ {
+   "id": 18,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 25103,
+   "Expense": 9526,
+   "Profit": 9314,
+   "OrderCount": 104
+ },
+ {
+   "id": 19,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 18514,
+   "Expense": 3421,
+   "Profit": 13848,
+   "OrderCount": 106
+ },
+ {
+   "id": 20,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 31501,
+   "Expense": 9470,
+   "Profit": 9714,
+   "OrderCount": 109
+ },
+ {
+   "id": 21,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 25126,
+   "Expense": 6579,
+   "Profit": 16642,
+   "OrderCount": 93
+ },
+ {
+   "id": 22,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 39645,
+   "Expense": 7113,
+   "Profit": 7888,
+   "OrderCount": 70
+ },
+ {
+   "id": 23,
+   "Market": "South",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 18143,
+   "Expense": 9108,
+   "Profit": 18471,
+   "OrderCount": 88
+ },
+ {
+   "id": 24,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 16793,
+   "Expense": 9351,
+   "Profit": 6028,
+   "OrderCount": 52
+ },
+ {
+   "id": 25,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 17348,
+   "Expense": 4759,
+   "Profit": 17984,
+   "OrderCount": 107
+ },
+ {
+   "id": 26,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 39280,
+   "Expense": 3290,
+   "Profit": 32,
+   "OrderCount": 85
+ },
+ {
+   "id": 27,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 14005,
+   "Expense": 4962,
+   "Profit": 8482,
+   "OrderCount": 99
+ },
+ {
+   "id": 28,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 21914,
+   "Expense": 9317,
+   "Profit": 6871,
+   "OrderCount": 46
+ },
+ {
+   "id": 29,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 17417,
+   "Expense": 4715,
+   "Profit": 19157,
+   "OrderCount": 58
+ },
+ {
+   "id": 30,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 30181,
+   "Expense": 3242,
+   "Profit": 11170,
+   "OrderCount": 38
+ },
+ {
+   "id": 31,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 25739,
+   "Expense": 3803,
+   "Profit": 3922,
+   "OrderCount": 67
+ },
+ {
+   "id": 32,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 32450,
+   "Expense": 6889,
+   "Profit": 1686,
+   "OrderCount": 115
+ },
+ {
+   "id": 33,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 38035,
+   "Expense": 4136,
+   "Profit": 8103,
+   "OrderCount": 74
+ },
+ {
+   "id": 34,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 12687,
+   "Expense": 4630,
+   "Profit": -554,
+   "OrderCount": 152
+ },
+ {
+   "id": 35,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 38575,
+   "Expense": 6542,
+   "Profit": 10173,
+   "OrderCount": 79
+ },
+ {
+   "id": 36,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 12752,
+   "Expense": 10823,
+   "Profit": 18568,
+   "OrderCount": 58
+ },
+ {
+   "id": 37,
+   "Market": "South",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 26877,
+   "Expense": 6979,
+   "Profit": 5437,
+   "OrderCount": 34
+ },
+ {
+   "id": 38,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 17037,
+   "Expense": 3591,
+   "Profit": 5142,
+   "OrderCount": 121
+ },
+ {
+   "id": 39,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 37153,
+   "Expense": 6207,
+   "Profit": 18494,
+   "OrderCount": 112
+ },
+ {
+   "id": 40,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 12207,
+   "Expense": 7197,
+   "Profit": 9433,
+   "OrderCount": 59
+ },
+ {
+   "id": 41,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 21519,
+   "Expense": 7326,
+   "Profit": 14189,
+   "OrderCount": 145
+ },
+ {
+   "id": 42,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 16595,
+   "Expense": 6083,
+   "Profit": 7416,
+   "OrderCount": 114
+ },
+ {
+   "id": 43,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 14802,
+   "Expense": 5649,
+   "Profit": 2308,
+   "OrderCount": 78
+ },
+ {
+   "id": 44,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 12762,
+   "Expense": 7882,
+   "Profit": 9289,
+   "OrderCount": 37
+ },
+ {
+   "id": 45,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 33064,
+   "Expense": 6695,
+   "Profit": 11732,
+   "OrderCount": 160
+ },
+ {
+   "id": 46,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 27812,
+   "Expense": 3920,
+   "Profit": 11498,
+   "OrderCount": 47
+ },
+ {
+   "id": 47,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 36174,
+   "Expense": 6558,
+   "Profit": 16484,
+   "OrderCount": 128
+ },
+ {
+   "id": 48,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 13080,
+   "Expense": 10998,
+   "Profit": 18676,
+   "OrderCount": 43
+ },
+ {
+   "id": 49,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 24578,
+   "Expense": 3892,
+   "Profit": 8874,
+   "OrderCount": 125
+ },
+ {
+   "id": 50,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 29128,
+   "Expense": 6149,
+   "Profit": 2281,
+   "OrderCount": 86
+ },
+ {
+   "id": 51,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 32185,
+   "Expense": 11572,
+   "Profit": 10582,
+   "OrderCount": 120
+ },
+ {
+   "id": 52,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 13616,
+   "Expense": 4283,
+   "Profit": 9942,
+   "OrderCount": 35
+ },
+ {
+   "id": 53,
+   "Market": "South",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 12103,
+   "Expense": 5239,
+   "Profit": 821,
+   "OrderCount": 107
+ },
+ {
+   "id": 54,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 11631,
+   "Expense": 11656,
+   "Profit": 13218,
+   "OrderCount": 153
+ },
+ {
+   "id": 55,
+   "Market": "South",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 23461,
+   "Expense": 7920,
+   "Profit": 9328,
+   "OrderCount": 139
+ },
+ {
+   "id": 56,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 25649,
+   "Expense": 4723,
+   "Profit": 2328,
+   "OrderCount": 123
+ },
+ {
+   "id": 57,
+   "Market": "South",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 36415,
+   "Expense": 9312,
+   "Profit": 8137,
+   "OrderCount": 59
+ },
+ {
+   "id": 58,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 18654,
+   "Expense": 4490,
+   "Profit": 13862,
+   "OrderCount": 149
+ },
+ {
+   "id": 59,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 13231,
+   "Expense": 4507,
+   "Profit": 4438,
+   "OrderCount": 86
+ },
+ {
+   "id": 60,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 37938,
+   "Expense": 5848,
+   "Profit": 5112,
+   "OrderCount": 113
+ },
+ {
+   "id": 61,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 25927,
+   "Expense": 5543,
+   "Profit": 17445,
+   "OrderCount": 38
+ },
+ {
+   "id": 62,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 19490,
+   "Expense": 4718,
+   "Profit": 14531,
+   "OrderCount": 147
+ },
+ {
+   "id": 63,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 20387,
+   "Expense": 3516,
+   "Profit": 6973,
+   "OrderCount": 94
+ },
+ {
+   "id": 64,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 12662,
+   "Expense": 4003,
+   "Profit": 16744,
+   "OrderCount": 30
+ },
+ {
+   "id": 65,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 33129,
+   "Expense": 9954,
+   "Profit": 18616,
+   "OrderCount": 160
+ },
+ {
+   "id": 66,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 13372,
+   "Expense": 3259,
+   "Profit": 10095,
+   "OrderCount": 88
+ },
+ {
+   "id": 67,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 12323,
+   "Expense": 3259,
+   "Profit": 11755,
+   "OrderCount": 96
+ },
+ {
+   "id": 68,
+   "Market": "South",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 12637,
+   "Expense": 11474,
+   "Profit": 9800,
+   "OrderCount": 91
+ },
+ {
+   "id": 69,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 38795,
+   "Expense": 6439,
+   "Profit": 10363,
+   "OrderCount": 60
+ },
+ {
+   "id": 70,
+   "Market": "South",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 18865,
+   "Expense": 3724,
+   "Profit": 9953,
+   "OrderCount": 111
+ },
+ {
+   "id": 71,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 21959,
+   "Expense": 9685,
+   "Profit": 4595,
+   "OrderCount": 114
+ },
+ {
+   "id": 72,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 11258,
+   "Expense": 9456,
+   "Profit": 3865,
+   "OrderCount": 136
+ },
+ {
+   "id": 73,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 28481,
+   "Expense": 11985,
+   "Profit": 19360,
+   "OrderCount": 80
+ },
+ {
+   "id": 74,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 31159,
+   "Expense": 7065,
+   "Profit": 668,
+   "OrderCount": 145
+ },
+ {
+   "id": 75,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 27985,
+   "Expense": 5895,
+   "Profit": 6683,
+   "OrderCount": 104
+ },
+ {
+   "id": 76,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 21174,
+   "Expense": 3597,
+   "Profit": 9078,
+   "OrderCount": 45
+ },
+ {
+   "id": 77,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 24307,
+   "Expense": 6070,
+   "Profit": 12071,
+   "OrderCount": 72
+ },
+ {
+   "id": 78,
+   "Market": "North",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 21533,
+   "Expense": 10149,
+   "Profit": 17784,
+   "OrderCount": 102
+ },
+ {
+   "id": 79,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 21339,
+   "Expense": 4135,
+   "Profit": 15816,
+   "OrderCount": 72
+ },
+ {
+   "id": 80,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 15083,
+   "Expense": 10931,
+   "Profit": 12384,
+   "OrderCount": 92
+ },
+ {
+   "id": 81,
+   "Market": "South",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 12892,
+   "Expense": 10151,
+   "Profit": 2125,
+   "OrderCount": 159
+ },
+ {
+   "id": 82,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 28320,
+   "Expense": 4212,
+   "Profit": 13375,
+   "OrderCount": 106
+ },
+ {
+   "id": 83,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 26028,
+   "Expense": 7694,
+   "Profit": 7695,
+   "OrderCount": 32
+ },
+ {
+   "id": 84,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 10864,
+   "Expense": 9737,
+   "Profit": 10391,
+   "OrderCount": 122
+ },
+ {
+   "id": 85,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 27085,
+   "Expense": 6253,
+   "Profit": 7716,
+   "OrderCount": 140
+ },
+ {
+   "id": 86,
+   "Market": "South",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 12326,
+   "Expense": 8630,
+   "Profit": 1380,
+   "OrderCount": 107
+ },
+ {
+   "id": 87,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 19948,
+   "Expense": 6591,
+   "Profit": 9243,
+   "OrderCount": 90
+ },
+ {
+   "id": 88,
+   "Market": "South",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 39504,
+   "Expense": 8472,
+   "Profit": 10611,
+   "OrderCount": 88
+ },
+ {
+   "id": 89,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 27088,
+   "Expense": 8874,
+   "Profit": 4710,
+   "OrderCount": 157
+ },
+ {
+   "id": 90,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 11015,
+   "Expense": 6386,
+   "Profit": 5596,
+   "OrderCount": 33
+ },
+ {
+   "id": 91,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 13393,
+   "Expense": 9569,
+   "Profit": 1126,
+   "OrderCount": 101
+ },
+ {
+   "id": 92,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 22283,
+   "Expense": 6920,
+   "Profit": 15868,
+   "OrderCount": 53
+ },
+ {
+   "id": 93,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 18820,
+   "Expense": 4532,
+   "Profit": 7392,
+   "OrderCount": 117
+ },
+ {
+   "id": 94,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 17622,
+   "Expense": 4928,
+   "Profit": -112,
+   "OrderCount": 132
+ },
+ {
+   "id": 95,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 37973,
+   "Expense": 3756,
+   "Profit": 2138,
+   "OrderCount": 113
+ },
+ {
+   "id": 96,
+   "Market": "East",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 27635,
+   "Expense": 11462,
+   "Profit": 16418,
+   "OrderCount": 40
+ },
+ {
+   "id": 97,
+   "Market": "West",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 23522,
+   "Expense": 7531,
+   "Profit": 938,
+   "OrderCount": 116
+ },
+ {
+   "id": 98,
+   "Market": "South",
+   "ProductType": "Tea",
+   "Product": "Earl Grey",
+   "Revenue": 22385,
+   "Expense": 7810,
+   "Profit": 3346,
+   "OrderCount": 114
+ },
+ {
+   "id": 99,
+   "Market": "South",
+   "ProductType": "Tea",
+   "Product": "Green Tea",
+   "Revenue": 26699,
+   "Expense": 10685,
+   "Profit": 19455,
+   "OrderCount": 151
+ },
+ {
+   "id": 100,
+   "Market": "South",
+   "ProductType": "Tea",
+   "Product": "Darjeeling",
+   "Revenue": 14802,
+   "Expense": 11618,
+   "Profit": 16758,
+   "OrderCount": 74
+ }
+]
