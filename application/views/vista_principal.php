@@ -755,6 +755,7 @@ h4 {
 				</div>
       </div>
       <hr class="featurette-divider">
+      <!-- aqui -->
       <div class="conatainer">
       <div class="row" >
 				<div class="col-md-6">
@@ -764,23 +765,28 @@ h4 {
 				</div>
 				<div class="col-md-6" >
           <h2></h2>
-          <img src="../desinweb/imagenes/MESA.jpg" alt="..."  width="300px" height="200px">
-          <p style="font-size: 10px;  text-align: justify; font-family:arial;color:#9E9E9E">“El país está atravesando una grave crisis, en realidad una triple crisis”. </p>
+            <br>
+          <center><img src="../desinweb/imagenes/MESA.jpg" alt="..."  width="400px" height="200px"></center>
+          
+          <p style="font-size: 10px;  text-align: center; font-family:arial;color:#9E9E9E">“El país está atravesando una grave crisis, en realidad una triple crisis”. </p>
 					<p style="font-size: 10px;  text-align: center; font-family:arial;color:#9E9E9E"> Carlos Mesa en debate presidencial</p>
 				</div>
       </div>
       </div>
       <hr class="featurette-divider">
+      
       <div class="container">
       <div class="row">
 				<div class="col-md-6" >
-          <h2>Luis Alberto Arce Catacora</h2>
-          <img src="../desinweb/imagenes/ARCE.jpg" alt="..."  width="300px" height="200px" >
-          <p style="font-size: 10px;  text-align: justify; font-family:arial;color:#9E9E9E">"Una vez más, el pueblo hoy está apostando por retomar todo el proceso de cambio”.</p>
+         <h2 >Luis Alberto Arce Catacora</h2>
+          <center><img src="../desinweb/imagenes/ARCE.jpg" alt="..."  width="400px" height="200px"  ></center>
+          <p style="font-size: 10px;  text-align: center; font-family:arial;color:#9E9E9E">"Una vez más, el pueblo hoy está apostando por retomar todo el proceso de cambio”.</p>
           <p style="font-size: 10px;  text-align: center; font-family:arial;color:#9E9E9E"> Luis Arce en debate presidencial.</p>
         </div>
 				<div class="col-md-6">
           <h2></h2>
+          <br>
+          <br>
           <p style="font-size: 14px;  text-align: justify; font-family:arial;">En contraposición a las declaraciones de Carlos Mesa, fue el candidato por el MAS Luis Arce que haciendo reiterado uso de las palabras: pueblo, país y boliviano contextualizo que el MAS siempre realizo un arduo trabajo por el pueblo boliviano y lo seguirá haciendo, tomando en cuenta la ideología que ya mantuvo durante 14 años de gobierno con respecto a los pueblos originarios.</p>
 					<p><!--a class="btn btn-secondary" href="#" role="button">View details &raquo;</a--></p>
 					
@@ -800,31 +806,22 @@ h4 {
 
          </div>
          <div class="row">
-           <div class="col-lg-4">
+           <div class="col-lg-4 ">
              <div class="card">
               <div class="card-header">
                <div class="card-body">
                  <img src="../desinweb/imagenes/esdras.jpg" alt="" class="img-fluid rounded-circle
-                 w-50 mb-3">
+                 w-50 ">
                  <h3>Esdras Valencia</h3>
-                 <h5>Periodista</h5>
-                 <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                 <h4> Comunicación Social</h4>
+                 <br>
+                 <p style="font-size: 10px;  text-align: justify; font-family:arial;color:#9E9E9E">Antecedentes reportero y presentador actualmente dirige el programa Punta de Lanza Tarija como un medio para la difusión de valores, apasionado de los proyectos audiovisuales.</p>
+                 <br>
+                 <br>
+                 <br>
                  <div class="d-flex flex-row justify-content-center">
-                   <div class="p-4">
-                     <a href="#">
-                       <i class="fa fa-facebook"></i>
-                     </a>
-                   </div>
-                   <div class="p-4">
-                     <a href="#">
-                       <i class="fa fa-twiter"></i>
-                     </a>
-                   </div>
-                   <div class="p-4">
-                     <a href="#">
-                       <i class="fa fa-instagram"></i>
-                     </a>
-                   </div>
+
+                 
                  </div>
                 </div>
               </div>
@@ -835,26 +832,16 @@ h4 {
             <div class="card-header">
               <div class="card-body">
                   <img src="../desinweb/imagenes/yana.jpg" alt="" class="img-fluid rounded-circle
-                  w-50 mb-2">
+                  w-50 ">
                   <h3>Omar Yana</h3>
-                  <h5>Informatico</h5>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                  <h4>Igeniero Informatico</h4>
+                  <br>
+                  <p style="font-size: 10px;  text-align: justify; font-family:arial;color:#9E9E9E">Desarrollador de software, docente e investigador, aboga por el pensamiento científico y filosófico, en mis ratos libres me encuentro analizando la realidad Bolivia plasmada en los libros, además de un apasionado de la tecnología con un vínculo ético.</p>
                   <div class="d-flex flex-row justify-content-center">
-                    <div class="p-4">
-                      <a href="#">
-                        <i class="fa fa-facebook"></i>
-                      </a>
-                    </div>
-                    <div class="p-4">
-                      <a href="#">
-                        <i class="fa fa-twitter"></i>
-                      </a>
-                    </div>
-                    <div class="p-4">
-                      <a href="#">
-                        <i class="fa fa-instagram"></i>
-                      </a>
-                    </div>
+                  <br>
+                  <br>
+                  <br>
+                    
                   </div>
                   </div>
                 </div>
@@ -866,22 +853,23 @@ h4 {
             <div class="card-header">
               <div class="card-body">
                   <img src="../desinweb/imagenes/edith.jpg" alt="" class="img-fluid rounded-circle
-                  w-50 mb-2">
+                  w-50 ">
                   <h3>Edith Rafael</h3>
-                  <h5>Informatico</h5>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                  <h4>Ingeniera Informatica</h4>
+                  <br>
+                  <p style="font-size: 10px;  text-align: justify; font-family:arial;color:#9E9E9E">Desarrollador web, auxiliar contable, aboga por los animales, cuando no se encuentra desarrollando software se encuentra realizando arte como en papel o lo que tenga a la mano.                            </p><br>
                   <div class="d-flex flex-row justify-content-center">
-                    <div class="p-4">
+                    <div class="p-2">
                       <a href="#">
                         <i class="fa fa-facebook"></i>
                       </a>
                     </div>
-                    <div class="p-4">
+                    <div class="p-2">
                       <a href="#">
                         <i class="fa fa-twitter"></i>
                       </a>
                     </div>
-                    <div class="p-4">
+                    <div class="p-2">
                       <a href="#">
                         <i class="fa fa-instagram"></i>
                       </a>
@@ -896,7 +884,7 @@ h4 {
 
       </section>
 </div>
-
+<!-- hasta aqui -->
 		</main>
 
 		<footer class="footer text-muted">
