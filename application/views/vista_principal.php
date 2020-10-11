@@ -9,11 +9,7 @@
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@chartshq/muze@2.0.0/dist/muze.js"></script>
 	<link href="https://cdn.jsdelivr.net/npm/@chartshq/muze@2.0.0/dist/muze.css" rel="stylesheet" />
 
-<<<<<<< HEAD
-    <!-- Bootstrap CSS -->
-=======
   <!-- Bootstrap CSS -->
->>>>>>> 64c2cf18215c6e5affbb6b04d28f7a8d48f2f6b4
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
    
   <script src="https://cdn.dhtmlx.com/suite/edge/suite.js"></script>     
@@ -32,7 +28,7 @@
 
 	
 	
-	<title>Acomparativa Debates</title>
+	<title>Comparativa Debates - DESIN</title>
 
 	<style>
 		html,
@@ -302,274 +298,324 @@ h4 {
 }
 
 	</style>
-	<script>
+<script>
 
 
-	const muze = window.muze;
+const muze = window.muze;
 
 /*
-	(async () => {
-  const DataModel = await muze.DataModel.onReady();
-  const env = await muze();
-  //const data = await loadData("coffee.csv");
-  const data = await fetch('data/coffee-data.json').then(d => d.json());
-  const schema = [
-    {
-        "name": "Market",
-        "type": "dimension"
-    },
-    {
-        "name": "ProductType",
-        "type": "dimension"
-    },
-    {
-        "name": "Revenue",
-        "type": "measure",
-        //"format": val => `$${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
-    },
-    {
-        "name": "Expense",
-        "type": "measure",
-        //"format": val => `$${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
-    },
-    {
-        "name": "Profit",
-        "type": "measure"
-    }
-  ];
-  const formattedData = await DataModel.loadData(data, schema);
-  let dm = new DataModel(formattedData);
+(async () => {
+const DataModel = await muze.DataModel.onReady();
+const env = await muze();
+//const data = await loadData("coffee.csv");
+const data = await fetch('data/coffee-data.json').then(d => d.json());
+const schema = [
+  {
+      "name": "Market",
+      "type": "dimension"
+  },
+  {
+      "name": "ProductType",
+      "type": "dimension"
+  },
+  {
+      "name": "Revenue",
+      "type": "measure",
+      //"format": val => `$${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
+  },
+  {
+      "name": "Expense",
+      "type": "measure",
+      //"format": val => `$${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
+  },
+  {
+      "name": "Profit",
+      "type": "measure"
+  }
+];
+const formattedData = await DataModel.loadData(data, schema);
+let dm = new DataModel(formattedData);
 
-  let mountPoint = document.getElementById("chart");
-  env
-    .canvas()
-    .data(dm)
-    .rows(['Market', 'ProductType'])
-    .columns([['Revenue', 'Expense'], ['Revenue', 'Expense']])
-    .config({
-      axes: {
-        x: {
-          tickFormat: val => `$${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
-        }
+let mountPoint = document.getElementById("chart");
+env
+  .canvas()
+  .data(dm)
+  .rows(['Market', 'ProductType'])
+  .columns([['Revenue', 'Expense'], ['Revenue', 'Expense']])
+  .config({
+    axes: {
+      x: {
+        tickFormat: val => `$${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
       }
-    })
-    .mount(mountPoint);
+    }
+  })
+  .mount(mountPoint);
 })();
 */
 
-  function bar_show(id_video_a,text_video_a,id_video_b,text_video_b) {
-      $.ajax({
-        async:false,
-        cache:false,
-        type: "POST",
-        url: url+"/videos/palabras", 
-        dataType: "json",
-        contentType: "application/json; charset=UTF-8",
-        data: JSON.stringify({id_video_a:id_video_a,id_video_b:id_video_b}),
-        processData: false,
-        success: function(data){
+function bar_show(id_video_a,text_video_a,id_video_b,text_video_b) {
+    $.ajax({
+      async:false,
+      cache:false,
+      type: "POST",
+      url: url+"/videos/palabras", 
+      dataType: "json",
+      contentType: "application/json; charset=UTF-8",
+      data: JSON.stringify({id_video_a:id_video_a,id_video_b:id_video_b}),
+      processData: false,
+      success: function(data){
 
-          var x1 = []; 
-          var y1 = [];	
-          var x2 = []; 
-          var y2 = [];	
-          
-          for(var palabra in data.video)
-          {
-            y1.push(data.video[palabra].word);
-            x1.push(data.video[palabra].frequencyA);				 		
+        var x1 = []; 
+        var y1 = [];	
+        var x2 = []; 
+        var y2 = [];
+        var a = 0;
+        var b = 0;
+        var ab = 0;	
+        
+        for(var palabra in data.video)
+        {
+          y1.push(data.video[palabra].word);
+          x1.push(data.video[palabra].frequencyA);
+          if(data.video[palabra].frequencyA>0){
+            a++;
+          }		
+          if(data.video[palabra].frequencyB>0){
+            b++;
+          }	
+          if(data.video[palabra].frequencyA>0 && data.video[palabra].frequencyB>0){
+            ab++;
+          }		 		
+        }
+        for(var palabra in data.video)
+        {
+          y2.push(data.video[palabra].word);
+          x2.push(data.video[palabra].frequencyB);			 		
+        }
+        //alert(JSON.stringify(y));
+        var trace1 = {
+          y: y1,
+          x: x1,
+          name: ''+text_video_a,
+          type: 'bar',
+          orientation: 'h'
+        };
+
+        var trace2 = {
+          y: y2,
+          x: x2,
+          name: ''+text_video_b,
+          type: 'bar',
+          orientation: 'h'
+        };
+
+        var data = [trace1, trace2];
+
+        //var layout = {barmode: 'group'};
+        var layout = {
+          title: 'COMPARACIÓN DE PALABRAS MÁS USADAS EN EL DEBATE PRESIDENCIAL 2020',
+          font:{
+            family: 'Raleway, sans-serif'
+          },
+          barmode: 'group',
+          xaxis2: {
+            overlaying: 'x',
+            side: 'top'
           }
-          for(var palabra in data.video)
-          {
-            y2.push(data.video[palabra].word);
-            x2.push(data.video[palabra].frequencyB);				 		
-          }
-          //alert(JSON.stringify(y));
-          var trace1 = {
-            y: y1,
-            x: x1,
-            name: ''+text_video_a,
-            type: 'bar',
-            orientation: 'h'
-          };
+        };
 
-          var trace2 = {
-            y: y2,
-            x: x2,
-            name: ''+text_video_b,
-            type: 'bar',
-            orientation: 'h'
-          };
+        Plotly.newPlot('divBar', data, layout);
 
-          var data = [trace1, trace2];
+        var data = [{
+        values: [a, b, ab],
+        labels: [(text_video_a+''), (text_video_b+''), 'AMBOS'],
+        type: 'pie',
+        insidetextorientation: "radial",
+        marker: {
+          colors: 'rgb(34, 53, 101)'
+        },
+        }];
 
-          //var layout = {barmode: 'group'};
-          var layout = {
-            title: 'Comparacion',
-            font:{
-              family: 'Raleway, sans-serif'
-            },
-            barmode: 'group',
-            xaxis2: {
-              overlaying: 'x',
-              side: 'top'
-            }
-          };
+        var layout = {
+        height: 500,
+        width: 500,
+        'title': 'ESTADÍSTICA DE PALABRAS'
+        };
 
-          Plotly.newPlot('divBar', data, layout);
-        }             
-      });
-
-      $.ajax({
-        async:false,
-        cache:false,
-        type: "POST",
-        url: url+"/videos/sentencias", 
-        dataType: "json",
-        contentType: "application/json; charset=UTF-8",
-        data: JSON.stringify({id_video_a:id_video_a,id_video_b:id_video_b}),
-        processData: false,
-        success: function(data){
-          //alert(JSON.stringify(data))
-          
-          var registros = [];
-          var registro = null;
-          var i=1;
-          for(var sentencia in data.video)
-          {
-            registro = {
-              "id": i,
-              "Descripcion": data.video[sentencia].word,
-              "Video A": data.video[sentencia].frequencyA,
-              "Video B": data.video[sentencia].frequencyB,
-            };
-            i++;
-            registros.push(registro);
-          }
-          //alert(i);
-          //alert(JSON.stringify(registros));
-          
-          
-          bar_load(registros);
-
-
-          
-          
-
-
-
-
-
-        } 
-      });
-  }
-
-  async function bar_load(registros) {
-          const DataModel = await muze.DataModel.onReady();
-          const env = await muze();
-
-          
-          const data = registros;
-          const schema = [
-            {
-                "name": "Descripcion",
-                "type": "dimension"
-            },
-            {
-                "name": "Video A",
-                "type": "measure",
-                "format": val => `${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
-            },
-            {
-                "name": "Video B",
-                "type": "measure",
-                "format": val => `${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
-            }
-          ];
-          const formattedData = await DataModel.loadData(data, schema);
-          let dm = new DataModel(formattedData);
-          document.getElementById("divChart").innerHTML = "";
-          let mountPoint = document.getElementById("divChart");
-          env
-            .canvas()
-            .data(dm)
-            .rows(['Descripcion'])
-            .columns([['Video A', 'Video B'], ['Video A', 'Video B']])
-            .data(dm)
-            .color({
-              field: 'Descripcion',
-              step: true
-            })
-            .title("Grouped bar chart", { position: "bottom", align: "right" })
-            .config({
-              axes: {
-                x: {
-                  tickFormat: val => `${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
-                }
-              },
-              scrollBar: {
-                vertical: {
-                  align: 'left'
-                },
-                thickness: 20,
-                speed: 10
-              }
-            })
-            .mount(mountPoint);
-  }
-
+        Plotly.newPlot('div_palabra', data, layout);
   
+      }             
+    });
+
+    $.ajax({
+      async:false,
+      cache:false,
+      type: "POST",
+      url: url+"/videos/sentencias", 
+      dataType: "json",
+      contentType: "application/json; charset=UTF-8",
+      data: JSON.stringify({id_video_a:id_video_a,id_video_b:id_video_b}),
+      processData: false,
+      success: function(data){
+        //alert(JSON.stringify(data))
+        
+        var registros = [];
+        var registro = null;
+        var a = 0;
+        var b = 0;
+        var ab = 0;
+
+        var i=1;
+        for(var sentencia in data.video)
+        {
+          registro = {
+            "id": i,
+            "Descripcion": data.video[sentencia].word,
+            "Video A": data.video[sentencia].frequencyA,
+            "Video B": data.video[sentencia].frequencyB,
+          };
+          i++;
+          if(data.video[sentencia].frequencyA>0){
+            a++;
+          }		
+          if(data.video[sentencia].frequencyB>0){
+            b++;
+          }	
+          if(data.video[sentencia].frequencyA>0 && data.video[sentencia].frequencyB>0){
+            ab++;
+          }
+
+          registros.push(registro);
+        }
+        var data = [{
+        values: [a, b, ab],
+        labels: [(text_video_a+''), (text_video_b+''), 'AMBOS'],
+        type: 'pie',
+        insidetextorientation: "radial",
+        marker: {
+          colors: 'rgb(56, 75, 126)'
+        },
+        }];
+
+        var layout = {
+        height: 500,
+        width: 500,
+        'title': 'ESTADÍSTICA DE FRASES'
+        };
+
+        Plotly.newPlot('div_sentencia', data, layout);
+        
+        bar_load(registros);
+      } 
+    });
+}
+
+async function bar_load(registros) {
+        const DataModel = await muze.DataModel.onReady();
+        const env = await muze();
+
+        
+        const data = registros;
+        const schema = [
+          {
+              "name": "Descripcion",
+              "type": "dimension"
+          },
+          {
+              "name": "Video A",
+              "type": "measure",
+              "format": val => `${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
+          },
+          {
+              "name": "Video B",
+              "type": "measure",
+              "format": val => `${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
+          }
+        ];
+        const formattedData = await DataModel.loadData(data, schema);
+        let dm = new DataModel(formattedData);
+        document.getElementById("divChart").innerHTML = "";
+        let mountPoint = document.getElementById("divChart");
+        env
+          .canvas()
+          .data(dm)
+          .rows(['Descripcion'])
+          .columns([['Video A', 'Video B'], ['Video A', 'Video B']])
+          .data(dm)
+          .color({
+            field: 'Descripcion',
+            step: true
+          })
+          .title("Grouped bar chart", { position: "bottom", align: "right" })
+          .config({
+            axes: {
+              x: {
+                tickFormat: val => `${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
+              }
+            },
+            scrollBar: {
+              vertical: {
+                align: 'left'
+              },
+              thickness: 20,
+              speed: 10
+            }
+          })
+          .mount(mountPoint);
+}
+
+
 
 (async () => {
-  const DataModel = await muze.DataModel.onReady();
-  const env = await muze();
-  const data = [];//await fetch('data/coffee-data.json').then(d => d.json());
-  const schema = [
-    {
-        "name": "Market",
-        "type": "dimension"
-    },
-    {
-        "name": "ProductType",
-        "type": "dimension"
-    },
-    {
-        "name": "Revenue",
-        "type": "measure",
-        "format": val => `$${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
-    },
-    {
-        "name": "Expense",
-        "type": "measure",
-        "format": val => `$${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
-    },
-    {
-        "name": "Profit",
-        "type": "measure"
-    }
-  ];
-  const formattedData = await DataModel.loadData(data, schema);
-  let dm = new DataModel(formattedData);
+const DataModel = await muze.DataModel.onReady();
+const env = await muze();
+const data = [];//await fetch('data/coffee-data.json').then(d => d.json());
+const schema = [
+  {
+      "name": "Market",
+      "type": "dimension"
+  },
+  {
+      "name": "ProductType",
+      "type": "dimension"
+  },
+  {
+      "name": "Revenue",
+      "type": "measure",
+      "format": val => `$${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
+  },
+  {
+      "name": "Expense",
+      "type": "measure",
+      "format": val => `$${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
+  },
+  {
+      "name": "Profit",
+      "type": "measure"
+  }
+];
+const formattedData = await DataModel.loadData(data, schema);
+let dm = new DataModel(formattedData);
 
-  let mountPoint = document.getElementById("divChart");
-  env
-    .canvas()
-    .data(dm)
-    .rows(['Market', 'ProductType'])
-    .columns([['Revenue', 'Expense'], ['Revenue', 'Expense']])
-    .color('ProductType')
-    .config({
-      axes: {
-        x: {
-          tickFormat: val => `$${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
-        }
+let mountPoint = document.getElementById("divChart");
+env
+  .canvas()
+  .data(dm)
+  .rows(['Market', 'ProductType'])
+  .columns([['Revenue', 'Expense'], ['Revenue', 'Expense']])
+  .color('ProductType')
+  .config({
+    axes: {
+      x: {
+        tickFormat: val => `$${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
       }
-    })
-    .mount(mountPoint);
+    }
+  })
+  .mount(mountPoint);
 })();
 
 
-	</script>
+</script>
   </head>
   <body>
   <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
@@ -585,6 +631,7 @@ h4 {
           <li class="nav-item active">
             <a class="nav-link" href="#">Acerca de</span></a>
           </li>
+          <!--
           <li class="nav-item">
             <a class="nav-link" href="#">News</a>
           </li>
@@ -600,6 +647,7 @@ h4 {
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
+          -->
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -701,27 +749,30 @@ h4 {
       </p>
     </div>
     <hr class="featurette-divider">
+    <p style="font-size: 15px;  text-align: center; font-family:arial;color:#e74c3c"> SELECCIONAR CANDIDATOS A COMPARAR.</p>
+   
+
     <br>
       <div class="container">
         <div class="row" > 
             <div class="col-sm-6">
               <div class="left">
                   <div class="dropdown">
-                    <div class="dhx_sample-container__widget" id="cmb_video_a" style="min-width:300px;width:100%;padding:1px;align:center"></div>
+                    <div class="dhx_sample-container__widget" id="cmb_video_a" style="min-width:300px;width:100%;padding:1px;"></div>
                   </div>
               </div>
             </div>      
             <div class="col-sm-6">
               <div class="right">
                   <div class="dropdown">
-                    <div class="dhx_sample-container__widget" id="cmb_video_b" style="min-width:300px;width:100%;padding:1px;align:center"></div>
+                    <div class="dhx_sample-container__widget" id="cmb_video_b" style="min-width:300px;width:100%;padding:1px;"></div>
                   </div>
               </div>
             </div>
           </div> 
       </div>
     
-      <hr class="featurette-divider">
+    <hr class="featurette-divider">
     <div class="container">
     <p style="font-size: 15px;  text-align: center; font-family:arial;color:#e74c3c">PALABRAS MÁS USADAS EN EL DEBATE PRESIDENCIAL 2020 POR PARTE DE LOS CANDIDATOS QUE OCUPAN LOS 3 PRIMEROS PUESTOS SEGUN ENCUESTAS.</p>
     <div id='divBar' style="min-height: 700px;padding:2%" style="align:center"><!-- Plotly chart will be drawn inside this DIV --></div> 
@@ -731,6 +782,7 @@ h4 {
     <p style="font-size: 15px;  text-align: center; font-family:arial; color:#e74c3c">FRASES MÁS USADAS EN EL DEBATE PRESIDENCIAL 2020 POR PARTE DE LOS CANDIDATOS QUE OCUPAN LOS 3 PRIMEROS PUESTOS SEGUN ENCUESTAS.</p>
     
     <div id="divChart" class="abs-center" style="width: 90%;height: auto; padding:4%;" ></div>
+    
     </div>
 
     <div class="container">
@@ -742,16 +794,11 @@ h4 {
 
 			<div class="row">
 				<div class="col-lg-6">
-					<h2>Reporte</h2>
-					
-          <div  style=" margin: auto " id="myDiv" ></div>
+          <div  style=" margin: auto " id="div_palabra" ></div>
           <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
 				</div>
 				<div class="col-lg-6">
-					<h2>Reporte</h2>
-				
-          <div  style=" margin: auto" id="myDiv2" ></div>
-          
+          <div  style=" margin: auto" id="div_sentencia" ></div>
 				</div>
       </div>
       <hr class="featurette-divider">
@@ -813,16 +860,17 @@ h4 {
                  <img src="../desinweb/imagenes/esdras.jpg" alt="" class="img-fluid rounded-circle
                  w-50 ">
                  <h3>Esdras Valencia</h3>
+                 <br>
                  <h4> Comunicación Social</h4>
                  <br>
-                 <p style="font-size: 10px;  text-align: justify; font-family:arial;color:#9E9E9E">Antecedentes reportero y presentador actualmente dirige el programa Punta de Lanza Tarija como un medio para la difusión de valores, apasionado de los proyectos audiovisuales.</p>
-                 <br>
-                 <br>
-                 <br>
-                 <div class="d-flex flex-row justify-content-center">
-
-                 
-                 </div>
+                  <br>
+                  <br><br>
+                  
+                  
+                  
+                  <div class="d-flex flex-row justify-content-center">
+                    
+                  </div>
                 </div>
               </div>
              </div>
@@ -831,16 +879,19 @@ h4 {
             <div class="card">
             <div class="card-header">
               <div class="card-body">
-                  <img src="../desinweb/imagenes/yana.jpg" alt="" class="img-fluid rounded-circle
-                  w-50 ">
+
+                  <img src="../desinweb/imagenes/OEYC.jpg" alt="" class="img-fluid rounded-circle
+                  w-50">
                   <h3>Omar Yana</h3>
-                  <h4>Igeniero Informatico</h4>
                   <br>
-                  <p style="font-size: 10px;  text-align: justify; font-family:arial;color:#9E9E9E">Desarrollador de software, docente e investigador, aboga por el pensamiento científico y filosófico, en mis ratos libres me encuentro analizando la realidad Bolivia plasmada en los libros, además de un apasionado de la tecnología con un vínculo ético.</p>
+                  <h4>Informática</h4>
+                  <br>
+                  <br>
+                  <br><br>
+                  <br>
+                  <br>
+                  
                   <div class="d-flex flex-row justify-content-center">
-                  <br>
-                  <br>
-                  <br>
                     
                   </div>
                   </div>
@@ -855,25 +906,17 @@ h4 {
                   <img src="../desinweb/imagenes/edith.jpg" alt="" class="img-fluid rounded-circle
                   w-50 ">
                   <h3>Edith Rafael</h3>
-                  <h4>Ingeniera Informatica</h4>
                   <br>
-                  <p style="font-size: 10px;  text-align: justify; font-family:arial;color:#9E9E9E">Desarrollador web, auxiliar contable, aboga por los animales, cuando no se encuentra desarrollando software se encuentra realizando arte como en papel o lo que tenga a la mano.                            </p><br>
+                  <h>Informática</h4>
+                  <br>
+                  <br>
+                  <br><br>
+                  <br>
+                  <br>
+                  <br>
+                  
                   <div class="d-flex flex-row justify-content-center">
-                    <div class="p-2">
-                      <a href="#">
-                        <i class="fa fa-facebook"></i>
-                      </a>
-                    </div>
-                    <div class="p-2">
-                      <a href="#">
-                        <i class="fa fa-twitter"></i>
-                      </a>
-                    </div>
-                    <div class="p-2">
-                      <a href="#">
-                        <i class="fa fa-instagram"></i>
-                      </a>
-                    </div>
+                    
                   </div>
                   </div>
                 </div>
@@ -932,7 +975,7 @@ h4 {
 				return "<div style='user-select:none;display:inline-block; vertical-align:middle;'></div> " + item.value + "";
 			}
 		});
-
+        
     combobox_video_a.data.load(url+"/videos").then(function(data){});
     combobox_video_b.data.load(url+"/videos").then(function(data){});
 
@@ -975,19 +1018,7 @@ h4 {
 
 		});
 
-		var data = [{
-		values: [19, 26, 55],
-		labels: ['Residential', 'Non-Residential', 'Utility'],
-		type: 'pie'
-		}];
-
-		var layout = {
-		height: 400,
-		width: 500
-		};
-
-		Plotly.newPlot('myDiv', data, layout);
-    Plotly.newPlot('myDiv2', data, layout);
+		
 
     var trace1 = {
         y: [],
@@ -1007,7 +1038,7 @@ h4 {
 
       var data = [trace1, trace2];
       var layout = {
-        title: 'Comparacion',
+        title: '',
         barmode: 'group',
         xaxis2: {
           overlaying: 'x',
@@ -1017,12 +1048,26 @@ h4 {
 
       Plotly.plot('divBar', data, layout);
 
+      var data = [{
+        values: [],
+        labels: [],
+        type: 'pie'
+        }];
+
+        var layout = {
+        height: 500,
+        width: 500
+      };
+
+      Plotly.newPlot('div_palabra', data, layout);
+      Plotly.newPlot('div_sentencia', data, layout);
+
 	</script>	
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-     <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>-->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-	
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 	
 </html>
