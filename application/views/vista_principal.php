@@ -861,7 +861,7 @@ env
                  w-50 ">
                  <h3>Esdras Valencia</h3>
                  <br>
-                 <h4> Comunicación Social</h4>
+                 <h4> Comunicación Social </h4>
                  <br>
                   <br>
                   <br><br>
