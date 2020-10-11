@@ -9,16 +9,25 @@
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@chartshq/muze@2.0.0/dist/muze.js"></script>
 	<link href="https://cdn.jsdelivr.net/npm/@chartshq/muze@2.0.0/dist/muze.css" rel="stylesheet" />
 
+<<<<<<< HEAD
     <!-- Bootstrap CSS -->
+=======
+  <!-- Bootstrap CSS -->
+>>>>>>> 64c2cf18215c6e5affbb6b04d28f7a8d48f2f6b4
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
    
-  
+  <script src="https://cdn.dhtmlx.com/suite/edge/suite.js"></script>     
+  <link rel="stylesheet" href="https://cdn.dhtmlx.com/suite/edge/suite.css"> 
+
 	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+  <script src="data/config.js"></script>
+  
+<!--
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   
-
+ -->
   
 
 	
@@ -289,10 +298,173 @@ margin-top: -50px;
 })();
 */
 
+  function bar_show(id_video_a,text_video_a,id_video_b,text_video_b) {
+      $.ajax({
+        async:false,
+        cache:false,
+        type: "POST",
+        url: url+"/videos/palabras", 
+        dataType: "json",
+        contentType: "application/json; charset=UTF-8",
+        data: JSON.stringify({id_video_a:id_video_a,id_video_b:id_video_b}),
+        processData: false,
+        success: function(data){
+
+          var x1 = []; 
+          var y1 = [];	
+          var x2 = []; 
+          var y2 = [];	
+          
+          for(var palabra in data.video)
+          {
+            y1.push(data.video[palabra].word);
+            x1.push(data.video[palabra].frequencyA);				 		
+          }
+          for(var palabra in data.video)
+          {
+            y2.push(data.video[palabra].word);
+            x2.push(data.video[palabra].frequencyB);				 		
+          }
+          //alert(JSON.stringify(y));
+          var trace1 = {
+            y: y1,
+            x: x1,
+            name: ''+text_video_a,
+            type: 'bar',
+            orientation: 'h'
+          };
+
+          var trace2 = {
+            y: y2,
+            x: x2,
+            name: ''+text_video_b,
+            type: 'bar',
+            orientation: 'h'
+          };
+
+          var data = [trace1, trace2];
+
+          //var layout = {barmode: 'group'};
+          var layout = {
+            title: 'Comparacion',
+            font:{
+              family: 'Raleway, sans-serif'
+            },
+            barmode: 'group',
+            xaxis2: {
+              overlaying: 'x',
+              side: 'top'
+            }
+          };
+
+          Plotly.newPlot('divBar', data, layout);
+        }             
+      });
+
+      $.ajax({
+        async:false,
+        cache:false,
+        type: "POST",
+        url: url+"/videos/sentencias", 
+        dataType: "json",
+        contentType: "application/json; charset=UTF-8",
+        data: JSON.stringify({id_video_a:id_video_a,id_video_b:id_video_b}),
+        processData: false,
+        success: function(data){
+          //alert(JSON.stringify(data))
+          
+          var registros = [];
+          var registro = null;
+          var i=1;
+          for(var sentencia in data.video)
+          {
+            registro = {
+              "id": i,
+              "Descripcion": data.video[sentencia].word,
+              "Video A": data.video[sentencia].frequencyA,
+              "Video B": data.video[sentencia].frequencyB,
+            };
+            i++;
+            registros.push(registro);
+          }
+          //alert(i);
+          //alert(JSON.stringify(registros));
+          
+          
+          bar_load(registros);
+
+
+          
+          
+
+
+
+
+
+        } 
+      });
+  }
+
+  async function bar_load(registros) {
+          const DataModel = await muze.DataModel.onReady();
+          const env = await muze();
+
+          
+          const data = registros;
+          const schema = [
+            {
+                "name": "Descripcion",
+                "type": "dimension"
+            },
+            {
+                "name": "Video A",
+                "type": "measure",
+                "format": val => `${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
+            },
+            {
+                "name": "Video B",
+                "type": "measure",
+                "format": val => `${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
+            }
+          ];
+          const formattedData = await DataModel.loadData(data, schema);
+          let dm = new DataModel(formattedData);
+          document.getElementById("divChart").innerHTML = "";
+          let mountPoint = document.getElementById("divChart");
+          env
+            .canvas()
+            .data(dm)
+            .rows(['Descripcion'])
+            .columns([['Video A', 'Video B'], ['Video A', 'Video B']])
+            .data(dm)
+            .color({
+              field: 'Descripcion',
+              step: true
+            })
+            .title("Grouped bar chart", { position: "bottom", align: "right" })
+            .config({
+              axes: {
+                x: {
+                  tickFormat: val => `${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
+                }
+              },
+              scrollBar: {
+                vertical: {
+                  align: 'left'
+                },
+                thickness: 20,
+                speed: 10
+              }
+            })
+            .mount(mountPoint);
+  }
+
+  
+
 (async () => {
   const DataModel = await muze.DataModel.onReady();
   const env = await muze();
-  const data = await fetch('data/coffee-data.json').then(d => d.json());
+  const data = [];//await fetch('data/coffee-data.json').then(d => d.json());
   const schema = [
     {
         "name": "Market",
@@ -320,7 +492,7 @@ margin-top: -50px;
   const formattedData = await DataModel.loadData(data, schema);
   let dm = new DataModel(formattedData);
 
-  let mountPoint = document.getElementById("chart");
+  let mountPoint = document.getElementById("divChart");
   env
     .canvas()
     .data(dm)
@@ -448,34 +620,23 @@ margin-top: -50px;
             <div class="col-sm-6">
               <div class="left">
                   <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Dropdown button
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                    <div class="dhx_sample-container__widget" id="cmb_video_a" style="min-width:300px;width:100%;padding:1px;"></div>
                   </div>
               </div>
             </div>      
             <div class="col-sm-6">
               <div class="right">
                   <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Dropdown button
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                    <div class="dhx_sample-container__widget" id="cmb_video_b" style="min-width:300px;width:100%;padding:1px;"></div>
                   </div>
               </div>
             </div>
           </div> 
       </div>
     </section>
+    <hr class="featurette-divider">
+
+    <div id='divBar' style="min-height: 700px;padding:2%"><!-- Plotly chart will be drawn inside this DIV --></div> 
     
     <hr class="featurette-divider">
 
@@ -484,11 +645,13 @@ margin-top: -50px;
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eveniet consequatur, et accusantium vitae accusamus unde beatae a repellat obcaecati fugit tempora dolore, cupiditate harum repellendus ullam adipisci veritatis exercitationem.
         </p>
-          <div class="abs-center" style="width: 800px;height: 650px;" id="chart"></div>
+          
           <!--div class="abs-center" style="max-width: 100%; margin: auto " id="myDiv" ></div-->
       </div>
 
     </section>
+
+    <div class="abs-center" style="width: 90%;height: auto; padding:4%;" id="divChart"></div>
 
     <hr class="featurette-divider">
     <div class="container">
@@ -700,10 +863,60 @@ margin-top: -50px;
 
 	</body>
 	<script>
+    var url = "http://"+rest.host+":"+rest.port;
+    var en = {
+      notFound: "No Encontrado Video",
+      selectAll: "Seleccionar Todos los Videos",
+      unselectAll: "Deseleccionar Todos los Videos",
+      selectedItems: "Seleccionar Video"
+    };
+		dhx.i18n.setLocale("combobox", en);
+		var combobox_video_a = new dhx.Combobox("cmb_video_a", {
+			multiselection: false,
+			selectAllButton: false,
+			placeholder: "Videos",
+      label:"Video A",
+			labelInline: true,
+			labelWidth: 100,
+			template: function (item) {
+				return "<div style='user-select:none;display:inline-block; vertical-align:middle;'></div> " + item.value + "";
+			}
+		});
 
+    dhx.i18n.setLocale("combobox", en);
+		var combobox_video_b = new dhx.Combobox("cmb_video_b", {
+			multiselection: false,
+			selectAllButton: false,
+			placeholder: "Videos",
+      label:"Video B",
+			labelInline: true,
+			labelWidth: 100,
+			template: function (item) {
+				return "<div style='user-select:none;display:inline-block; vertical-align:middle;'></div> " + item.value + "";
+			}
+		});
 
+    combobox_video_a.data.load(url+"/videos").then(function(data){});
+    combobox_video_b.data.load(url+"/videos").then(function(data){});
 
+    combobox_video_a.events.on("change", function(value, e){
+			if(e === 'update' && combobox_video_b.getValue() > 0){
+				//alert('change:'+value+' event: '+e+ ' combo: '+combobox_video_b.getValue());
+        const item_a = combobox_video_a.data.getItem(value);
+        const item_b = combobox_video_b.data.getItem(combobox_video_b.getValue());
+        bar_show(item_a.id, item_a.value, item_b.id, item_b.value);
+			}
+		});
+    combobox_video_b.events.on("change", function(value, e){
+			if(e === 'update' && combobox_video_a.getValue() > 0){
+				//alert('change:'+value+' event: '+e+ ' combo: '+combobox_video_a.getValue());
+        const item_b = combobox_video_b.data.getItem(value);
+        const item_a = combobox_video_a.data.getItem(combobox_video_a.getValue());
 
+        //alert(JSON.stringify(item_b)+' '+JSON.stringify(item_b));
+        bar_show(item_a.id, item_a.value, item_b.id, item_b.value);
+			}
+		});
 
 		$(document).ready(function () {
 			$('#success').click(function (e) {
@@ -738,6 +951,35 @@ margin-top: -50px;
 
 		Plotly.newPlot('myDiv', data, layout);
     Plotly.newPlot('myDiv2', data, layout);
+
+    var trace1 = {
+        y: [],
+        x: [],
+        name: '',
+        type: 'bar',
+        orientation: 'h'
+      };
+
+      var trace2 = {
+        y: [],
+        x: [],
+        name: '',
+        type: 'bar',
+        orientation: 'h'
+      };
+
+      var data = [trace1, trace2];
+      var layout = {
+        title: 'Comparacion',
+        barmode: 'group',
+        xaxis2: {
+          overlaying: 'x',
+          side: 'top'
+        }
+      };
+
+      Plotly.plot('divBar', data, layout);
+
 	</script>	
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
