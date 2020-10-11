@@ -313,17 +313,29 @@ margin-top: -50px;
           var x1 = []; 
           var y1 = [];	
           var x2 = []; 
-          var y2 = [];	
+          var y2 = [];
+          var a = 0;
+          var b = 0;
+          var ab = 0;	
           
           for(var palabra in data.video)
           {
             y1.push(data.video[palabra].word);
-            x1.push(data.video[palabra].frequencyA);				 		
+            x1.push(data.video[palabra].frequencyA);
+            if(data.video[palabra].frequencyA>0){
+              a++;
+            }		
+            if(data.video[palabra].frequencyB>0){
+              b++;
+            }	
+            if(data.video[palabra].frequencyA>0 && data.video[palabra].frequencyB>0){
+              ab++;
+            }		 		
           }
           for(var palabra in data.video)
           {
             y2.push(data.video[palabra].word);
-            x2.push(data.video[palabra].frequencyB);				 		
+            x2.push(data.video[palabra].frequencyB);			 		
           }
           //alert(JSON.stringify(y));
           var trace1 = {
@@ -358,6 +370,25 @@ margin-top: -50px;
           };
 
           Plotly.newPlot('divBar', data, layout);
+
+          var data = [{
+          values: [a, b, ab],
+          labels: [(text_video_a+''), (text_video_b+''), 'AMBOS'],
+          type: 'pie',
+          insidetextorientation: "radial",
+          marker: {
+            colors: 'rgb(34, 53, 101)'
+          },
+          }];
+
+          var layout = {
+          height: 500,
+          width: 500,
+          'title': 'Grades in gym'
+          };
+
+          Plotly.newPlot('div_palabra', data, layout);
+    
         }             
       });
 
@@ -375,6 +406,10 @@ margin-top: -50px;
           
           var registros = [];
           var registro = null;
+          var a = 0;
+          var b = 0;
+          var ab = 0;
+
           var i=1;
           for(var sentencia in data.video)
           {
@@ -385,22 +420,37 @@ margin-top: -50px;
               "Video B": data.video[sentencia].frequencyB,
             };
             i++;
+            if(data.video[sentencia].frequencyA>0){
+              a++;
+            }		
+            if(data.video[sentencia].frequencyB>0){
+              b++;
+            }	
+            if(data.video[sentencia].frequencyA>0 && data.video[sentencia].frequencyB>0){
+              ab++;
+            }
+
             registros.push(registro);
           }
-          //alert(i);
-          //alert(JSON.stringify(registros));
-          
+          var data = [{
+          values: [a, b, ab],
+          labels: [(text_video_a+''), (text_video_b+''), 'AMBOS'],
+          type: 'pie',
+          insidetextorientation: "radial",
+          marker: {
+            colors: 'rgb(56, 75, 126)'
+          },
+          }];
+
+          var layout = {
+          height: 500,
+          width: 500,
+          'title': 'Grades in gym'
+          };
+
+          Plotly.newPlot('div_sentencia', data, layout);
           
           bar_load(registros);
-
-
-          
-          
-
-
-
-
-
         } 
       });
   }
@@ -664,16 +714,12 @@ margin-top: -50px;
 
 
 			<div class="row">
-				<div class="col-lg-6">
-					<h2>Reporte</h2>
-					
-          <div  style=" margin: auto " id="myDiv" ></div>
+				<div class="col-lg-6">		
+          <div  style=" margin: auto " id="div_palabra" ></div>
           <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
 				</div>
 				<div class="col-lg-6">
-					<h2>Reporte</h2>
-				
-          <div  style=" margin: auto" id="myDiv2" ></div>
+          <div  style=" margin: auto" id="div_sentencia" ></div>
           
 				</div>
       </div>
@@ -895,7 +941,7 @@ margin-top: -50px;
 				return "<div style='user-select:none;display:inline-block; vertical-align:middle;'></div> " + item.value + "";
 			}
 		});
-
+        
     combobox_video_a.data.load(url+"/videos").then(function(data){});
     combobox_video_b.data.load(url+"/videos").then(function(data){});
 
@@ -938,19 +984,7 @@ margin-top: -50px;
 
 		});
 
-		var data = [{
-		values: [19, 26, 55],
-		labels: ['Residential', 'Non-Residential', 'Utility'],
-		type: 'pie'
-		}];
-
-		var layout = {
-		height: 400,
-		width: 500
-		};
-
-		Plotly.newPlot('myDiv', data, layout);
-    Plotly.newPlot('myDiv2', data, layout);
+		
 
     var trace1 = {
         y: [],
@@ -979,6 +1013,20 @@ margin-top: -50px;
       };
 
       Plotly.plot('divBar', data, layout);
+
+      var data = [{
+        values: [],
+        labels: [],
+        type: 'pie'
+        }];
+
+        var layout = {
+        height: 500,
+        width: 500
+      };
+
+      Plotly.newPlot('div_palabra', data, layout);
+      Plotly.newPlot('div_sentencia', data, layout);
 
 	</script>	
     <!-- Optional JavaScript -->
