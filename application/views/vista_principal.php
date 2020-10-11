@@ -17,12 +17,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  
-
-  
-
-	
-	
+  	
 	<title>Hello, word!</title>
 	<style>
 		html,
@@ -187,52 +182,86 @@ margin-top: -50px;
 
 }
 /*de aqui el otro cards*/ 
+.lds-spinner {
+  color: official;
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-spinner div {
+  transform-origin: 40px 40px;
+  animation: lds-spinner 1.2s linear infinite;
+}
+.lds-spinner div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 37px;
+  width: 6px;
+  height: 18px;
+  border-radius: 20%;
+  background: #fff;
+}
+.lds-spinner div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -1.1s;
+}
+.lds-spinner div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -1s;
+}
+.lds-spinner div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.9s;
+}
+.lds-spinner div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.8s;
+}
+.lds-spinner div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.7s;
+}
+.lds-spinner div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.6s;
+}
+.lds-spinner div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.5s;
+}
+.lds-spinner div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.4s;
+}
+.lds-spinner div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.3s;
+}
+.lds-spinner div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.2s;
+}
+.lds-spinner div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.1s;
+}
+.lds-spinner div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+}
+@keyframes lds-spinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
-.containerteam{
-  width: 100%;
-  max-width: 1200px;
-  height: 430px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
-}
-.containerteam .card{
-  width: 330px;
-  height: 430px;
-  border-radius: 0px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  margin: 20px;
-  text-align: center;
-  transition: all 0.25s;
-
-}
-.containerteam .card:hover{
-  transform: translate(15px);
-  box-shadow: 0 12px 62px rgba(0, 0, 0, 0.2);
-}
-.containerteam .card img{
-  width: 330px;
-  height: 220px;
-}
-.containerteam .card h1{
-  font-weight: 600;
-}
-.containerteam .card p{
-  padding: 0 1rem;
-  font-size: 16px;
-  font-weight: 300;
-}
-.containerteam .card a {
-  font-weight: 500;
-  text-decoration: none;
-  color: #3498db;
-
-}
-
-
-
+/*fin loades*/ 
 	</style>
 	<script>
 
@@ -356,15 +385,28 @@ margin-top: -50px;
             <a class="nav-link" href="#">Notifications</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Profile</a>
+            <a class="nav-link" href="#ventana1" data-toggle="modal">Cargar Data</a>
+                <div class="modal fade" id="ventana1">
+                <div class="modal-dialog">
+                  <div class="content">
+                    <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"cargando la data></h4>
+
+                  </div>
+
+                </div>
+
+
+                </div>
           </li>
+          
           <li class="nav-item">
             <a class="nav-link" href="#">Switch account</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" >Cargar Data </a>               
               <a class="dropdown-item" href="#">Another action</a>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
@@ -379,9 +421,16 @@ margin-top: -50px;
 
     <div class="nav-scroller bg-white box-shadow">
       <nav class="nav nav-underline">
-        <a class="nav-link active" href="#">Dashboard</a>
+        <a class="nav-link active" href="#">
+          <!-- weather widget start -->
+          <a target="_blank" href="https://hotelmix.es/weather/la-paz-13481">
+          <img src="https://w.bookcdn.com/weather/picture/21_13481_1_4_3658db_250_2a48ba_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=124&domid=582&anc_id=93525" alt="booked.net"/></a>
+          <!-- weather widget end -->
         <a class="nav-link" href="#">
-          Friends
+          <!-- weather widget start -->
+          <a target="_blank" href="https://hotelmix.es/weather/santa-cruz-de-la-sierra-2115">
+          <img src="https://w.bookcdn.com/weather/picture/21_2115_1_4_3658db_250_2a48ba_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=124&domid=582&anc_id=37230" alt="booked.net"/></a>ç
+          <!-- weather widget end -->
           <span class="badge badge-pill bg-light align-text-bottom">27</span>
         </a>
         <a class="nav-link" href="#">Explore</a>
@@ -393,6 +442,16 @@ margin-top: -50px;
         <a class="nav-link" href="#">Link</a>
       </nav>
     </div>
+   <!-- loader
+    <div class="d-flex justify-content-center">
+      <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+        
+      </div>
+    </div>-->
+    <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+
+
 
 		<main role="main">
 
@@ -406,6 +465,7 @@ margin-top: -50px;
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -414,11 +474,18 @@ margin-top: -50px;
                 <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>   
               </div>
               <div class="carousel-item">
-              <img src="../desinweb/imagenes/images2.jpg" class="d-block w-100" alt="..." width="300px" height="150px">
+              <img src="../desinweb/imagenes/1.jpg" class="d-block w-100" alt="..." width="400px" height="230px">
                     
               </div>
               <div class="carousel-item">
-              <img src="../desinweb/imagenes/images3.jpg" class="d-block w-100" alt="..." width="300px" height="150px">
+              <img src="../desinweb/imagenes/2.png" class="d-block w-100" alt="..." width="400px" height="230px">
+                    <!--div class="carousel-caption d-none d-md-block ">
+                      <h5>First slide label</h5>
+                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div-->
+              </div>
+              <div class="carousel-item">
+              <img src="../desinweb/imagenes/3.jpg" class="d-block w-100" alt="..." width="400px" height="230px">
                     <!--div class="carousel-caption d-none d-md-block ">
                       <h5>First slide label</h5>
                       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -546,13 +613,13 @@ margin-top: -50px;
          <div class="row mb-5">
            <div class="col">
              <h1>TEAM</h1>
-             <p class="mt-3">dfgdgfdgfg</p>
+             <p class="mt-3"></p>
 
            </div>
 
          </div>
          <div class="row">
-           <div class="col-lg-4">
+           <div class="col-lg-3 col-md-4">
              <div class="card">
               <div class="card-header">
                <div class="card-body">
@@ -582,7 +649,7 @@ margin-top: -50px;
               </div>
              </div>
            </div>
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-3 col-md-4">
             <div class="card">
             <div class="card-header">
               <div class="card-body">
@@ -613,7 +680,7 @@ margin-top: -50px;
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-3 col-md-4">
             <div class="card">
             <div class="card-header">
               <div class="card-body">
@@ -647,41 +714,9 @@ margin-top: -50px;
         </div>
 
       </section>
-
-      <div class="containerteam">
-        <div class="card">
-          <img src="../desinweb/imagenes/edith.jpg" alt="">
-          <h5>Edith Rafael</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad animi, earum doloribus a aliquam, quod enim natus maiores aliquid temporibus neque corporis obcaecati! Numquam repellat praesentium nostrum inventore sed dignissimos.
-
-          </p>
-          <a href="#">Leer mas</a>
-        </div>
-        <div class="card">
-          <img src="../desinweb/imagenes/esdras.jpg" alt="">
-          <h5>Esdras Valencia</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad animi, earum doloribus a aliquam, quod enim natus maiores aliquid temporibus neque corporis obcaecati! Numquam repellat praesentium nostrum inventore sed dignissimos.
-
-          </p>
-          <a href="#">Leer mas</a>
-        </div>
-        <div class="card">
-          <img src="../desinweb/imagenes/yana.jpg" alt="">
-          <h5>Omar Yana</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad animi, earum doloribus a aliquam, quod enim natus maiores aliquid temporibus neque corporis obcaecati! Numquam repellat praesentium nostrum inventore sed dignissimos.
-
-          </p>
-          <a href="#">Leer mas</a>
-        </div>
-      </div>
-
-
-			<hr>
+			<!--hr>
 			<button type="button" class="btn btn-success" id="success">Success</button>
-			<hr>
+			<hr-->
 		</div> <!-- /container -->
 
 		</main>
