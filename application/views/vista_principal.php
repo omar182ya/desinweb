@@ -815,8 +815,7 @@ env
             <br>
           <center><img src="../desinweb/imagenes/MESA.jpg" alt="..."  width="400px" height="200px"></center>
           
-          <p style="font-size: 10px;  text-align: center; font-family:arial;color:#9E9E9E">“El país está atravesando una grave crisis, en realidad una triple crisis”. </p>
-					<p style="font-size: 10px;  text-align: center; font-family:arial;color:#9E9E9E"> Carlos Mesa en debate presidencial</p>
+          <p style="font-size: 10px;  text-align: center; font-family:arial;color:#9E9E9E">“El país está atravesando una grave crisis, en realidad una triple crisis”. Carlos Mesa en debate presidencial”</p>
 				</div>
       </div>
       </div>
@@ -827,8 +826,7 @@ env
 				<div class="col-md-6" >
          <h2 >Luis Alberto Arce Catacora</h2>
           <center><img src="../desinweb/imagenes/ARCE.jpg" alt="..."  width="400px" height="200px"  ></center>
-          <p style="font-size: 10px;  text-align: center; font-family:arial;color:#9E9E9E">"Una vez más, el pueblo hoy está apostando por retomar todo el proceso de cambio”.</p>
-          <p style="font-size: 10px;  text-align: center; font-family:arial;color:#9E9E9E"> Luis Arce en debate presidencial.</p>
+          <p style="font-size: 10px;  text-align: center; font-family:arial;color:#9E9E9E">"Una vez más, el pueblo hoy está apostando por retomar todo el proceso de cambio”. Luis Arce en debate presidencial.”</p>
         </div>
 				<div class="col-md-6">
           <h2></h2>
