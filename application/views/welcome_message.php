@@ -17,6 +17,9 @@
 
 	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="data/config.js"></script>
+  
 <!--
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   
@@ -612,14 +615,14 @@ margin-top: -50px;
             <div class="col-sm-6">
               <div class="left">
                   <div class="dropdown">
-                    <div class="dhx_sample-container__widget" id="cmb_video_a" style="min-width:300px;padding:1px;"></div>
+                    <div class="dhx_sample-container__widget" id="cmb_video_a" style="min-width:300px;width:100%;padding:1px;"></div>
                   </div>
               </div>
             </div>      
             <div class="col-sm-6">
               <div class="right">
                   <div class="dropdown">
-                    <div class="dhx_sample-container__widget" id="cmb_video_b" style="min-width:300px;padding:1px;"></div>
+                    <div class="dhx_sample-container__widget" id="cmb_video_b" style="min-width:300px;width:100%;padding:1px;"></div>
                   </div>
               </div>
             </div>
@@ -855,11 +858,7 @@ margin-top: -50px;
 
 	</body>
 	<script>
-
-
-
-    var url = "http://127.0.0.1:8081";
-
+    var url = "http://"+rest.host+":"+rest.port;
     var en = {
       notFound: "No Encontrado Video",
       selectAll: "Seleccionar Todos los Videos",
