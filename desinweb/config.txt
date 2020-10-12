@@ -1,0 +1,2 @@
+>Mklink /D D:\git\sgmweb\desinweb D:\desin\desinweb
+symbolic link created for D:\git\sgmweb\desinweb <<===>> D:\desin\desinweb

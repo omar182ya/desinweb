@@ -1,0 +1,13 @@
+>pip install -U flask
+>pip install -U flask_sqlalchemy
+>pip install -U pymysql
+>pip install -U marshmallow
+>pip install -U marshmallow-sqlalchemy
+
+>sudo python3.8 -m pip install -U flask
+>sudo python3.8 -m pip install -U flask_sqlalchemy
+>sudo python3.8 -m pip install -U pymysql
+>sudo python3.8 -m pip install -U marshmallow
+>sudo python3.8 -m pip install -U marshmallow-sqlalchemy
+>sudo python3.8 -m pip install -U pyopenssl
+>sudo openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 365
